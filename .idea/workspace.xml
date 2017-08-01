@@ -2,10 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db063f02-556f-4c0a-ab62-f8a0e1d7148e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops/tf.add.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops/tf.multiply.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops/tf.subtract.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops/tf_div.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorflowAPI/常量Tensorflow Python API 翻译（constant_op）.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorflowAPI/张量Tensorflow Python API 翻译（array_ops）.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorflowAPI/数学函数_1Tensorflow Python API 翻译（math_ops）（第一部分）.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorflowAPI/数学函数_2Tensorflow Python API 翻译（math_ops）（第二部分）.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorflowAPI/神经网络Tensorflow Python API 翻译（nn） - 简书.pdf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorflowAPI/稀疏张量Tensorflow Python API 翻译（sparse_ops）.pdf" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf.add.py" afterPath="$PROJECT_DIR$/math_ops/tf_add.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf.multiply.py" afterPath="$PROJECT_DIR$/math_ops/tf_multiply.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf.subtract.py" afterPath="$PROJECT_DIR$/math_ops/tf_subtract.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,6 +25,7 @@
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_add.coverage" NAME="tf.add Coverage Results" MODIFIED="1501484794038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_mul.coverage" NAME="tf.mul Coverage Results" MODIFIED="1501485156315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_multiply.coverage" NAME="tf.multiply Coverage Results" MODIFIED="1501552619088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_div.coverage" NAME="tf_div Coverage Results" MODIFIED="1501557225283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_sub.coverage" NAME="tf.sub Coverage Results" MODIFIED="1501484048857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
   </component>
   <component name="FileEditorManager">
@@ -25,8 +33,18 @@
       <file leaf-file-name="math_ops.py" pinned="false" current-in-tab="false">
         <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/math_ops.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
-              <caret line="276" column="30" lean-forward="true" selection-start-line="276" selection-start-column="30" selection-end-line="276" selection-end-column="30" />
+            <state relative-caret-position="281">
+              <caret line="993" column="0" lean-forward="true" selection-start-line="974" selection-start-column="0" selection-end-line="993" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tf_div.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/math_ops/tf_div.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="44" column="49" lean-forward="true" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
               <folding />
             </state>
           </provider>
@@ -52,16 +70,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tf.multiply.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/math_ops/tf.multiply.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="874">
-              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -82,6 +90,8 @@
         <option value="$PROJECT_DIR$/math_ops/tf.mul.py" />
         <option value="$PROJECT_DIR$/math_ops/tf.subtract.py" />
         <option value="$PROJECT_DIR$/math_ops/tf.multiply.py" />
+        <option value="$PROJECT_DIR$/math_ops/tf.div.py" />
+        <option value="$PROJECT_DIR$/math_ops/tf_div.py" />
       </list>
     </option>
   </component>
@@ -92,16 +102,15 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="182" />
-    <option name="y" value="12" />
+    <option name="x" value="303" />
     <option name="width" value="1477" />
-    <option name="height" value="985" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -116,7 +125,17 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
+      <pane id="Scope">
+        <subPane subId="Project Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TFAPI_translation" type="cbb8eebc:String" user="TFAPI_translation" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -138,6 +157,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -151,7 +171,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tf.multiply">
+  <component name="RunManager" selected="Python.tf_div">
     <configuration name="tf.add" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -165,7 +185,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops/tf.add.py" />
+      <option name="SCRIPT_NAME" value="F:\Git\TFAPI_translation\math_ops\tf_add.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="tf_div" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/math_ops" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TFAPI_translation" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops/tf_div.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -183,7 +221,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\Git\TFAPI_translation\math_ops\tf.multiply.py" />
+      <option name="SCRIPT_NAME" value="F:\Git\TFAPI_translation\math_ops\tf_multiply.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -201,7 +239,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops/tf.multiply.py" />
+      <option name="SCRIPT_NAME" value="F:\Git\TFAPI_translation\math_ops\tf_multiply.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -219,23 +257,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\Git\TFAPI_translation\math_ops\tf.subtract.py" />
+      <option name="SCRIPT_NAME" value="F:\Git\TFAPI_translation\math_ops\tf_subtract.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <list size="4">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python.tf.add" />
       <item index="1" class="java.lang.String" itemvalue="Python.tf.sub" />
       <item index="2" class="java.lang.String" itemvalue="Python.tf.mul" />
       <item index="3" class="java.lang.String" itemvalue="Python.tf.multiply" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tf_div" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Python.tf.multiply" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tf.mul" />
-        <item index="2" class="java.lang.String" itemvalue="Python.tf.add" />
-        <item index="3" class="java.lang.String" itemvalue="Python.tf.sub" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.tf_div" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tf.multiply" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tf.mul" />
+        <item index="3" class="java.lang.String" itemvalue="Python.tf.add" />
+        <item index="4" class="java.lang.String" itemvalue="Python.tf.sub" />
       </list>
     </recent_temporary>
   </component>
@@ -256,16 +296,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="182" y="12" width="1477" height="985" extended-state="0" />
+    <frame x="303" y="0" width="1477" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25335217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25335217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32524273" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30248308" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -291,7 +331,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/math_ops/tf.subtract.py">
+    <entry file="file://$PROJECT_DIR$/math_ops/tf_subtract.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
           <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="58" selection-end-column="3" />
@@ -299,10 +339,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/math_ops/tf.add.py">
+    <entry file="file://$PROJECT_DIR$/math_ops/tf_add.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="34" column="9" lean-forward="true" selection-start-line="34" selection-start-column="8" selection-end-line="34" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/idea.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops/tf_multiply.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-690">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -325,16 +381,16 @@
     </entry>
     <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/math_ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
-          <caret line="276" column="30" lean-forward="true" selection-start-line="276" selection-start-column="30" selection-end-line="276" selection-end-column="30" />
+        <state relative-caret-position="281">
+          <caret line="993" column="0" lean-forward="true" selection-start-line="974" selection-start-column="0" selection-end-line="993" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/math_ops/tf.multiply.py">
+    <entry file="file://$PROJECT_DIR$/math_ops/tf_div.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="874">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+        <state relative-caret-position="238">
+          <caret line="44" column="49" lean-forward="true" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
           <folding />
         </state>
       </provider>
