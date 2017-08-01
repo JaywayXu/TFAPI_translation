@@ -2,17 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db063f02-556f-4c0a-ab62-f8a0e1d7148e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops/tf_div.py" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorflowAPI/常量Tensorflow Python API 翻译（constant_op）.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorflowAPI/张量Tensorflow Python API 翻译（array_ops）.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorflowAPI/数学函数_1Tensorflow Python API 翻译（math_ops）（第一部分）.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorflowAPI/数学函数_2Tensorflow Python API 翻译（math_ops）（第二部分）.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorflowAPI/神经网络Tensorflow Python API 翻译（nn） - 简书.pdf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/TensorflowAPI/稀疏张量Tensorflow Python API 翻译（sparse_ops）.pdf" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops/00.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops/tf_abs.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops/tf_add_n.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops/tf_cross.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops/tf_differentDiv.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops/tf_differentMod.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops/tf_negative.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops/tf_reciprocal.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops/tf_round.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops/tf_scalar_mul.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops/tf_sign.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops/tf_sqrt.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops/tf_square.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf.add.py" afterPath="$PROJECT_DIR$/math_ops/tf_add.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf.multiply.py" afterPath="$PROJECT_DIR$/math_ops/tf_multiply.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf.subtract.py" afterPath="$PROJECT_DIR$/math_ops/tf_subtract.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/math_ops/tf_div.py" afterPath="$PROJECT_DIR$/math_ops/tf_div.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,49 +26,40 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_add.coverage" NAME="tf.add Coverage Results" MODIFIED="1501484794038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_mul.coverage" NAME="tf.mul Coverage Results" MODIFIED="1501485156315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_reciprocal.coverage" NAME="tf_reciprocal Coverage Results" MODIFIED="1501588154807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_multiply.coverage" NAME="tf.multiply Coverage Results" MODIFIED="1501552619088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_scalar_mul.coverage" NAME="tf_scalar_mul Coverage Results" MODIFIED="1501574109292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_round.coverage" NAME="tf_round Coverage Results" MODIFIED="1501588491620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_sign.coverage" NAME="tf_sign Coverage Results" MODIFIED="1501587424640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_abs.coverage" NAME="tf_abs Coverage Results" MODIFIED="1501586535668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_differentMod.coverage" NAME="tf_differentMod Coverage Results" MODIFIED="1501575906813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_cross.coverage" NAME="tf_cross Coverage Results" MODIFIED="1501576802870" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_differentDiv.coverage" NAME="tf_differentDiv Coverage Results" MODIFIED="1501573449279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_add.coverage" NAME="tf.add Coverage Results" MODIFIED="1501484794038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_negative.coverage" NAME="tf_negative Coverage Results" MODIFIED="1501586772576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_div.coverage" NAME="tf_div Coverage Results" MODIFIED="1501557225283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_add_n.coverage" NAME="tf_add_n Coverage Results" MODIFIED="1501577954637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_square.coverage" NAME="tf_square Coverage Results" MODIFIED="1501588328907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_sub.coverage" NAME="tf.sub Coverage Results" MODIFIED="1501484048857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="math_ops.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/math_ops.py">
+      <file leaf-file-name="00.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/math_ops/00.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="993" column="0" lean-forward="true" selection-start-line="974" selection-start-column="0" selection-end-line="993" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tf_div.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/math_ops/tf_div.py">
+      <file leaf-file-name="tf_sqrt.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/math_ops/tf_sqrt.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="44" column="49" lean-forward="true" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gen_math_ops.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/gen_math_ops.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="1419" column="0" lean-forward="true" selection-start-line="1419" selection-start-column="0" selection-end-line="1435" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="op_def_library.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/framework/op_def_library.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="23">
-              <caret line="288" column="6" lean-forward="false" selection-start-line="288" selection-start-column="6" selection-end-line="288" selection-end-column="6" />
+            <state relative-caret-position="115">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -79,6 +74,15 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>div</find>
+      <find>Realdiv</find>
+      <find>RealDiv</find>
+      <find>gen_math_ops._truncate_mod</find>
+      <find>Rea</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -92,6 +96,19 @@
         <option value="$PROJECT_DIR$/math_ops/tf.multiply.py" />
         <option value="$PROJECT_DIR$/math_ops/tf.div.py" />
         <option value="$PROJECT_DIR$/math_ops/tf_div.py" />
+        <option value="$PROJECT_DIR$/math_ops/tf_differentDiv.py" />
+        <option value="$PROJECT_DIR$/math_ops/tf_scalar_mul.py" />
+        <option value="$PROJECT_DIR$/math_ops/tf_differentMod.py" />
+        <option value="$PROJECT_DIR$/math_ops/tf_cross.py" />
+        <option value="$PROJECT_DIR$/math_ops/tf_add_n.py" />
+        <option value="$PROJECT_DIR$/math_ops/tf_abs.py" />
+        <option value="$PROJECT_DIR$/math_ops/tf_negative.py" />
+        <option value="$PROJECT_DIR$/math_ops/tf_sign.py" />
+        <option value="$PROJECT_DIR$/math_ops/tf_reciprocal.py" />
+        <option value="$PROJECT_DIR$/math_ops/tf_square.py" />
+        <option value="$PROJECT_DIR$/math_ops/00.py" />
+        <option value="$PROJECT_DIR$/math_ops/tf_round.py" />
+        <option value="$PROJECT_DIR$/math_ops/tf_sqrt.py" />
       </list>
     </option>
   </component>
@@ -102,15 +119,15 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="303" />
-    <option name="width" value="1477" />
-    <option name="height" value="1047" />
+    <option name="x" value="-7" />
+    <option name="width" value="1092" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Project Files" proportions="" version="1">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -131,6 +148,11 @@
             <path>
               <item name="Root" type="cbb8eebc:String" user="Root" />
               <item name="TFAPI_translation" type="cbb8eebc:String" user="TFAPI_translation" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TFAPI_translation" type="cbb8eebc:String" user="TFAPI_translation" />
+              <item name="math_ops" type="cbb8eebc:String" user="math_ops" />
             </path>
           </expand>
           <select />
@@ -157,7 +179,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -171,8 +193,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tf_div">
-    <configuration name="tf.add" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.tf_round">
+    <configuration name="tf_negative" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -185,12 +207,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\Git\TFAPI_translation\math_ops\tf_add.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops/tf_negative.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf_div" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_reciprocal" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -203,12 +225,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops/tf_div.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops/tf_reciprocal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf.mul" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_round" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -221,12 +243,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\Git\TFAPI_translation\math_ops\tf_multiply.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops/tf_round.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf.multiply" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_sign" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -239,12 +261,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\Git\TFAPI_translation\math_ops\tf_multiply.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops/tf_sign.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf.sub" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_square" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -257,25 +279,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="F:\Git\TFAPI_translation\math_ops\tf_subtract.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops/tf_square.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.tf.add" />
-      <item index="1" class="java.lang.String" itemvalue="Python.tf.sub" />
-      <item index="2" class="java.lang.String" itemvalue="Python.tf.mul" />
-      <item index="3" class="java.lang.String" itemvalue="Python.tf.multiply" />
-      <item index="4" class="java.lang.String" itemvalue="Python.tf_div" />
+      <item index="0" class="java.lang.String" itemvalue="Python.tf_negative" />
+      <item index="1" class="java.lang.String" itemvalue="Python.tf_sign" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tf_reciprocal" />
+      <item index="3" class="java.lang.String" itemvalue="Python.tf_square" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tf_round" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tf_div" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tf.multiply" />
-        <item index="2" class="java.lang.String" itemvalue="Python.tf.mul" />
-        <item index="3" class="java.lang.String" itemvalue="Python.tf.add" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tf.sub" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tf_round" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tf_square" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tf_reciprocal" />
+        <item index="3" class="java.lang.String" itemvalue="Python.tf_sign" />
+        <item index="4" class="java.lang.String" itemvalue="Python.tf_negative" />
       </list>
     </recent_temporary>
   </component>
@@ -296,18 +318,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="303" y="0" width="1477" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-7" y="0" width="1092" height="1100" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25335217" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30248308" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41320553" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19476745" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -316,7 +338,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -363,34 +384,141 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/framework/op_def_library.py">
+    <entry file="file://$PROJECT_DIR$/math_ops/tf_differentDiv.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="288" column="6" lean-forward="false" selection-start-line="288" selection-start-column="6" selection-end-line="288" selection-end-column="6" />
+        <state relative-caret-position="46">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding>
+            <element signature="e#19#139#1" expanded="false" />
+            <element signature="e#142#236#1" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops/tf_scalar_mul.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/gen_math_ops.py">
+    <entry file="file://$PROJECT_DIR$/math_ops/tf_differentMod.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="1419" column="0" lean-forward="true" selection-start-line="1419" selection-start-column="0" selection-end-line="1435" selection-end-column="0" />
+        <state relative-caret-position="557">
+          <caret line="39" column="21" lean-forward="true" selection-start-line="39" selection-start-column="21" selection-end-line="39" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/math_ops.py">
+    <entry file="file://$PROJECT_DIR$/math_ops/tf_cross.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="993" column="0" lean-forward="true" selection-start-line="974" selection-start-column="0" selection-end-line="993" selection-end-column="0" />
+        <state relative-caret-position="617">
+          <caret line="45" column="6" lean-forward="false" selection-start-line="45" selection-start-column="6" selection-end-line="45" selection-end-column="6" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/math_ops/tf_div.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="44" column="49" lean-forward="true" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
+        <state relative-caret-position="23">
+          <caret line="1" column="50" lean-forward="false" selection-start-line="1" selection-start-column="50" selection-end-line="1" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/math_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="1030" column="0" lean-forward="true" selection-start-line="1030" selection-start-column="0" selection-end-line="1030" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops/tf_add_n.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="18" lean-forward="true" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops/tf_abs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="9" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops/tf_negative.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="10" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/gen_math_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-274">
+          <caret line="765" column="32" lean-forward="true" selection-start-line="765" selection-start-column="32" selection-end-line="765" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/framework/op_def_library.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="141" column="33" lean-forward="false" selection-start-line="141" selection-start-column="30" selection-end-line="141" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops/tf_round.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="48" lean-forward="false" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops/tf_square.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="41" lean-forward="false" selection-start-line="6" selection-start-column="41" selection-end-line="6" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops/tf_reciprocal.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops/tf_sign.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="14" lean-forward="false" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops/00.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops/tf_sqrt.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
