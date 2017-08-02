@@ -2,50 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db063f02-556f-4c0a-ab62-f8a0e1d7148e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_betainc.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_polygamma.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_rint.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_linear algebra/tf_diag.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_linear algebra/tf_diag_part.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_linear algebra/tf_eye.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_linear algebra/tf_matrix_diag.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_linear algebra/tf_matrix_diag_part.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_linear algebra/tf_trace.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_linear algebra/tf_transpose.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/00.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/00.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_abs.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_abs.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_acos.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_acos.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_add.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_add.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_add_n.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_add_n.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_asin.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_asin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_atan.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_atan.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_ceil.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_ceil.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_cos.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_cos.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_cross.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_cross.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_differentDiv.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_differentDiv.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_differentMod.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_differentMod.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_digamma.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_digamma.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_div.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_div.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_erf.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_erf.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_erfc.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_erfc.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_exp.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_exp.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_floor.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_floor.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_igamma.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_igamma.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_igammac.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_igammac.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_lbeta.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_lbeta.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_lgamma.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_lgamma.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_log.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_log.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_maximum.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_maximum.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_minimum.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_minimum.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_multiply.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_multiply.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_negative.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_negative.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_pow.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_pow.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_reciprocal.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_reciprocal.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_round.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_round.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_rsqrt.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_rsqrt.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_scalar_mul.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_scalar_mul.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_sign.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_sign.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_sin.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_sin.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_sqrt.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_sqrt.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_square.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_square.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_squared_difference.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_squared_difference.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_subtract.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_subtract.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_tan.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_tan.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/math_ops/tf_zeta.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_zeta.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -61,10 +25,12 @@
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_sign.coverage" NAME="tf_sign Coverage Results" MODIFIED="1501587424640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_abs.coverage" NAME="tf_abs Coverage Results" MODIFIED="1501586535668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_zeta.coverage" NAME="tf_zeta Coverage Results" MODIFIED="1501658804391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_matrix_diag.coverage" NAME="tf_matrix_diag Coverage Results" MODIFIED="1501662617336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_pow.coverage" NAME="tf_pow Coverage Results" MODIFIED="1501594698119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_add_n.coverage" NAME="tf_add_n Coverage Results" MODIFIED="1501577954637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_square.coverage" NAME="tf_square Coverage Results" MODIFIED="1501588328907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_sub.coverage" NAME="tf.sub Coverage Results" MODIFIED="1501484048857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_trace.coverage" NAME="tf_trace Coverage Results" MODIFIED="1501660485886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_exp.coverage" NAME="tf_exp Coverage Results" MODIFIED="1501595085700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_mul.coverage" NAME="tf.mul Coverage Results" MODIFIED="1501485156315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_reciprocal.coverage" NAME="tf_reciprocal Coverage Results" MODIFIED="1501588154807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
@@ -83,10 +49,14 @@
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_log.coverage" NAME="tf_log Coverage Results" MODIFIED="1501595369350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_add.coverage" NAME="tf.add Coverage Results" MODIFIED="1501484794038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_negative.coverage" NAME="tf_negative Coverage Results" MODIFIED="1501586772576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_eye.coverage" NAME="tf_eye Coverage Results" MODIFIED="1501661361412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_diag_part.coverage" NAME="tf_diag_part Coverage Results" MODIFIED="1501660244566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_div.coverage" NAME="tf_div Coverage Results" MODIFIED="1501557225283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_betainc.coverage" NAME="tf_betainc Coverage Results" MODIFIED="1501659517047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_rsqrt.coverage" NAME="tf_rsqrt Coverage Results" MODIFIED="1501594533526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_igamma.coverage" NAME="tf_igamma Coverage Results" MODIFIED="1501658457209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_diag.coverage" NAME="tf_diag Coverage Results" MODIFIED="1501660017499" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_transpose.coverage" NAME="tf_transpose Coverage Results" MODIFIED="1501660722835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -101,11 +71,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="00.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="00.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/math_ops_basicoperation/00.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tf_matrix_diag_part.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/math_ops_linear algebra/tf_matrix_diag_part.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -170,6 +150,13 @@
         <option value="$PROJECT_DIR$/math_ops/tf_polygamma.py" />
         <option value="$PROJECT_DIR$/math_ops/tf_betainc.py" />
         <option value="$PROJECT_DIR$/math_ops/tf_rint.py" />
+        <option value="$PROJECT_DIR$/math_ops_linear algebra/tf_diag.py" />
+        <option value="$PROJECT_DIR$/math_ops_linear algebra/tf_diag_part.py" />
+        <option value="$PROJECT_DIR$/math_ops_linear algebra/tf_trace.py" />
+        <option value="$PROJECT_DIR$/math_ops_linear algebra/tf_transpose.py" />
+        <option value="$PROJECT_DIR$/math_ops_linear algebra/tf_eye.py" />
+        <option value="$PROJECT_DIR$/math_ops_linear algebra/tf_matrix_diag.py" />
+        <option value="$PROJECT_DIR$/math_ops_linear algebra/tf_matrix_diag_part.py" />
       </list>
     </option>
   </component>
@@ -211,6 +198,11 @@
               <item name="TFAPI_translation" type="b2602c69:ProjectViewProjectNode" />
               <item name="TFAPI_translation" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="TFAPI_translation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TFAPI_translation" type="462c0819:PsiDirectoryNode" />
+              <item name="math_ops_linear algebra" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -235,7 +227,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tf_rint">
+  <component name="RunManager" selected="Python.tf_matrix_diag">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -254,110 +246,110 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf_betainc" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_diag_part" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/math_ops" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/math_ops_linear algebra" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops/tf_betainc.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops_linear algebra/tf_diag_part.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf_igammac" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_eye" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/math_ops" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/math_ops_linear algebra" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops/tf_igammac.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops_linear algebra/tf_eye.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf_polygamma" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_matrix_diag" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/math_ops" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/math_ops_linear algebra" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops/tf_polygamma.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops_linear algebra/tf_matrix_diag.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf_rint" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_trace" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/math_ops" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/math_ops_linear algebra" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops/tf_rint.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops_linear algebra/tf_trace.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf_zeta" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_transpose" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/math_ops" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/math_ops_linear algebra" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops/tf_zeta.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops_linear algebra/tf_transpose.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.tf_igammac" />
-      <item index="1" class="java.lang.String" itemvalue="Python.tf_zeta" />
-      <item index="2" class="java.lang.String" itemvalue="Python.tf_polygamma" />
-      <item index="3" class="java.lang.String" itemvalue="Python.tf_betainc" />
-      <item index="4" class="java.lang.String" itemvalue="Python.tf_rint" />
+      <item index="0" class="java.lang.String" itemvalue="Python.tf_diag_part" />
+      <item index="1" class="java.lang.String" itemvalue="Python.tf_trace" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tf_transpose" />
+      <item index="3" class="java.lang.String" itemvalue="Python.tf_eye" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tf_matrix_diag" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tf_rint" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tf_betainc" />
-        <item index="2" class="java.lang.String" itemvalue="Python.tf_polygamma" />
-        <item index="3" class="java.lang.String" itemvalue="Python.tf_zeta" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tf_igammac" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tf_matrix_diag" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tf_eye" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tf_transpose" />
+        <item index="3" class="java.lang.String" itemvalue="Python.tf_trace" />
+        <item index="4" class="java.lang.String" itemvalue="Python.tf_diag_part" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +379,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19840364" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22805017" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -693,10 +685,66 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops_linear algebra/tf_diag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops_linear algebra/tf_trace.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops_linear algebra/tf_diag_part.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops_linear algebra/tf_transpose.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops_linear algebra/tf_eye.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="34" lean-forward="true" selection-start-line="10" selection-start-column="34" selection-end-line="10" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops_linear algebra/tf_matrix_diag.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/math_ops_basicoperation/00.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="20" lean-forward="true" selection-start-line="12" selection-start-column="20" selection-end-line="12" selection-end-column="20" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops_linear algebra/tf_matrix_diag_part.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
