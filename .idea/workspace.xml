@@ -2,19 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db063f02-556f-4c0a-ab62-f8a0e1d7148e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_advanced_function/tf_accumulate_n.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_advanced_function/tf_count_nonzero.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_advanced_function/tf_einsum.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_advanced_function/tf_reduce_all.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_advanced_function/tf_reduce_any.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_advanced_function/tf_reduce_logsumexp.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_advanced_function/tf_reduce_max.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_advanced_function/tf_reduce_mean.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_advanced_function/tf_reduce_min.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_advanced_function/tf_reduce_prod.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_advanced_function/tf_reduce_sum.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_advanced_function/tf_cumprod.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_advanced_function/tf_cumsum.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_advanced_function/tf_segment_max.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_advanced_function/tf_segment_mean.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_advanced_function/tf_segment_min.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_advanced_function/tf_segment_prod.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_advanced_function/tf_segment_sum.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/math_ops_basicoperation/00.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/00.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,6 +24,7 @@
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_scalar_mul.coverage" NAME="tf_scalar_mul Coverage Results" MODIFIED="1501574109292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_abs.coverage" NAME="tf_abs Coverage Results" MODIFIED="1501586535668" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_reduce_max.coverage" NAME="tf_reduce_max Coverage Results" MODIFIED="1501745359170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_cumsum.coverage" NAME="tf_cumsum Coverage Results" MODIFIED="1501750843174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_reduce_min.coverage" NAME="tf_reduce_min Coverage Results" MODIFIED="1501744933145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_matrix_band_part.coverage" NAME="tf_matrix_band_part Coverage Results" MODIFIED="1501669800578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_qr.coverage" NAME="tf_qr Coverage Results" MODIFIED="1501676028121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
@@ -37,6 +33,7 @@
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_svd.coverage" NAME="tf_svd Coverage Results" MODIFIED="1501726773459" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_count_nonzero.coverage" NAME="tf_count_nonzero Coverage Results" MODIFIED="1501747183743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_erf.coverage" NAME="tf_erf Coverage Results" MODIFIED="1501657310479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_segment_min.coverage" NAME="tf_segment_min Coverage Results" MODIFIED="1501751916223" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_multiply.coverage" NAME="tf.multiply Coverage Results" MODIFIED="1501552619088" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_polygamma.coverage" NAME="tf_polygamma Coverage Results" MODIFIED="1501659175621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_igammac.coverage" NAME="tf_igammac Coverage Results" MODIFIED="1501658614405" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
@@ -44,6 +41,7 @@
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_differentDiv.coverage" NAME="tf_differentDiv Coverage Results" MODIFIED="1501573449279" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_erfc.coverage" NAME="tf_erfc Coverage Results" MODIFIED="1501657313286" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_tensordot.coverage" NAME="tf_tensordot Coverage Results" MODIFIED="1501741976094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_segment_max.coverage" NAME="tf_segment_max Coverage Results" MODIFIED="1501752083743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_eye.coverage" NAME="tf_eye Coverage Results" MODIFIED="1501661361412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_diag_part.coverage" NAME="tf_diag_part Coverage Results" MODIFIED="1501660244566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_div.coverage" NAME="tf_div Coverage Results" MODIFIED="1501557225283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
@@ -55,6 +53,7 @@
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_transpose.coverage" NAME="tf_transpose Coverage Results" MODIFIED="1501660722835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_rint.coverage" NAME="tf_rint Coverage Results" MODIFIED="1501659631685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_reduce_mean.coverage" NAME="tf_reduce_mean Coverage Results" MODIFIED="1501745657354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_segment_mean.coverage" NAME="tf_segment_mean Coverage Results" MODIFIED="1501752163859" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_reduce_prod.coverage" NAME="tf_reduce_prod Coverage Results" MODIFIED="1501744400875" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_sign.coverage" NAME="tf_sign Coverage Results" MODIFIED="1501587424640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_zeta.coverage" NAME="tf_zeta Coverage Results" MODIFIED="1501658804391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
@@ -66,6 +65,7 @@
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_trace.coverage" NAME="tf_trace Coverage Results" MODIFIED="1501660485886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_self_adjoint_eig.coverage" NAME="tf_self_adjoint_eig Coverage Results" MODIFIED="1501725879857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_exp.coverage" NAME="tf_exp Coverage Results" MODIFIED="1501595085700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_cumprod.coverage" NAME="tf_cumprod Coverage Results" MODIFIED="1501751064518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_mul.coverage" NAME="tf.mul Coverage Results" MODIFIED="1501485156315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_reciprocal.coverage" NAME="tf_reciprocal Coverage Results" MODIFIED="1501588154807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_matrix_diag_part.coverage" NAME="tf_matrix_diag_part Coverage Results" MODIFIED="1501665637403" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
@@ -74,6 +74,7 @@
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_digamma.coverage" NAME="tf_digamma Coverage Results" MODIFIED="1501656550628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_squared_difference.coverage" NAME="tf_squared_difference Coverage Results" MODIFIED="1501658062489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_sqrt.coverage" NAME="tf_sqrt Coverage Results" MODIFIED="1501594315189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_segment_sum.coverage" NAME="tf_segment_sum Coverage Results" MODIFIED="1501751342844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_differentMod.coverage" NAME="tf_differentMod Coverage Results" MODIFIED="1501575906813" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_log.coverage" NAME="tf_log Coverage Results" MODIFIED="1501595369350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_add.coverage" NAME="tf.add Coverage Results" MODIFIED="1501484794038" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
@@ -99,41 +100,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="00.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="00.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/math_ops_basicoperation/00.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tf_count_nonzero.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/math_ops_advanced_function/tf_count_nonzero.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="483">
-              <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tf_einsum.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/math_ops_advanced_function/tf_einsum.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="713">
-              <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tf_accumulate_n.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/math_ops_advanced_function/tf_accumulate_n.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+            <state relative-caret-position="161">
+              <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -163,13 +134,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/math_ops/tf_lgamma.py" />
-        <option value="$PROJECT_DIR$/math_ops/tf_digamma.py" />
-        <option value="$PROJECT_DIR$/math_ops/tf_erf.py" />
-        <option value="$PROJECT_DIR$/math_ops/tf_erfc.py" />
-        <option value="$PROJECT_DIR$/math_ops/tf_squared_difference.py" />
-        <option value="$PROJECT_DIR$/math_ops/tf_igamma.py" />
-        <option value="$PROJECT_DIR$/math_ops/tf_igammac.py" />
         <option value="$PROJECT_DIR$/math_ops/tf_zeta.py" />
         <option value="$PROJECT_DIR$/math_ops/tf_polygamma.py" />
         <option value="$PROJECT_DIR$/math_ops/tf_betainc.py" />
@@ -214,6 +178,13 @@
         <option value="$PROJECT_DIR$/math_ops_advanced_function/tf_count_nonzero.py" />
         <option value="$PROJECT_DIR$/math_ops_advanced_function/tf_accumulate_n.py" />
         <option value="$PROJECT_DIR$/math_ops_advanced_function/tf_einsum.py" />
+        <option value="$PROJECT_DIR$/math_ops_advanced_function/tf_cumsum.py" />
+        <option value="$PROJECT_DIR$/math_ops_advanced_function/tf_cumprod.py" />
+        <option value="$PROJECT_DIR$/math_ops_advanced_function/tf_segment_sum.py" />
+        <option value="$PROJECT_DIR$/math_ops_advanced_function/tf_segment_prod.py" />
+        <option value="$PROJECT_DIR$/math_ops_advanced_function/tf_segment_min.py" />
+        <option value="$PROJECT_DIR$/math_ops_advanced_function/tf_segment_max.py" />
+        <option value="$PROJECT_DIR$/math_ops_advanced_function/tf_segment_mean.py" />
       </list>
     </option>
   </component>
@@ -223,7 +194,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
     <option name="y" value="1" />
     <option name="width" value="1121" />
@@ -314,7 +285,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tf_einsum">
+  <component name="RunManager" selected="Python.tf_segment_mean">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -333,7 +304,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf_count_nonzero" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_cumprod" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -346,12 +317,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops_advanced_function/tf_count_nonzero.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops_advanced_function/tf_cumprod.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf_einsum" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_segment_max" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -364,12 +335,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops_advanced_function/tf_einsum.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops_advanced_function/tf_segment_max.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf_reduce_max" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_segment_mean" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -382,12 +353,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops_advanced_function/tf_reduce_max.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops_advanced_function/tf_segment_mean.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf_reduce_mean" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_segment_min" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -400,12 +371,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops_advanced_function/tf_reduce_mean.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops_advanced_function/tf_segment_min.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf_reduce_min" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_segment_sum" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -418,25 +389,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops_advanced_function/tf_reduce_min.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops_advanced_function/tf_segment_sum.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.tf_reduce_min" />
-      <item index="1" class="java.lang.String" itemvalue="Python.tf_reduce_max" />
-      <item index="2" class="java.lang.String" itemvalue="Python.tf_reduce_mean" />
-      <item index="3" class="java.lang.String" itemvalue="Python.tf_count_nonzero" />
-      <item index="4" class="java.lang.String" itemvalue="Python.tf_einsum" />
+      <item index="0" class="java.lang.String" itemvalue="Python.tf_cumprod" />
+      <item index="1" class="java.lang.String" itemvalue="Python.tf_segment_sum" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tf_segment_min" />
+      <item index="3" class="java.lang.String" itemvalue="Python.tf_segment_max" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tf_segment_mean" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tf_einsum" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tf_count_nonzero" />
-        <item index="2" class="java.lang.String" itemvalue="Python.tf_reduce_mean" />
-        <item index="3" class="java.lang.String" itemvalue="Python.tf_reduce_max" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tf_reduce_min" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tf_segment_mean" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tf_segment_max" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tf_segment_min" />
+        <item index="3" class="java.lang.String" itemvalue="Python.tf_segment_sum" />
+        <item index="4" class="java.lang.String" itemvalue="Python.tf_cumprod" />
       </list>
     </recent_temporary>
   </component>
@@ -457,7 +428,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="1" width="1121" height="1038" extended-state="1" />
+    <frame x="-7" y="1" width="1121" height="1038" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22431669" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -466,7 +437,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29874572" sideWeight="0.4967012" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28164196" sideWeight="0.4967012" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24954128" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -492,55 +463,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/math_ops_basicoperation/tf_erfc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="13" lean-forward="true" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/math_ops_basicoperation/tf_erf.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/math_ops_basicoperation/tf_igammac.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/math_ops_basicoperation/tf_igamma.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/math_ops_basicoperation/tf_squared_difference.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/math_ops_basicoperation/tf_rint.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/math_ops_basicoperation/tf_round.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="48" lean-forward="false" selection-start-line="6" selection-start-column="48" selection-end-line="6" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/math_ops_basicoperation/tf_betainc.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
@@ -830,18 +752,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/math_ops_basicoperation/00.py">
+    <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/special_math_ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/math_ops_advanced_function/tf_count_nonzero.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="188">
+          <caret line="244" column="0" lean-forward="false" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -854,18 +768,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/special_math_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="188">
-          <caret line="244" column="0" lean-forward="false" selection-start-line="244" selection-start-column="0" selection-end-line="244" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/math_ops_advanced_function/tf_einsum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="713">
           <caret line="31" column="11" lean-forward="true" selection-start-line="31" selection-start-column="11" selection-end-line="31" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops_advanced_function/tf_count_nonzero.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops_advanced_function/tf_cumprod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="402">
+          <caret line="23" column="16" lean-forward="true" selection-start-line="23" selection-start-column="16" selection-end-line="23" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops_advanced_function/tf_cumsum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="230">
+          <caret line="10" column="31" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops_advanced_function/tf_segment_min.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops_advanced_function/tf_segment_prod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops_advanced_function/tf_segment_sum.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops_advanced_function/tf_segment_mean.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops_advanced_function/tf_segment_max.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops_basicoperation/00.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="161">
+          <caret line="7" column="19" lean-forward="true" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
           <folding />
         </state>
       </provider>
