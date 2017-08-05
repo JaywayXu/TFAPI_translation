@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db063f02-556f-4c0a-ab62-f8a0e1d7148e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/constant_op/tf_constant.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/constant_op/tf_fill.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/constant_op/tf_linspace.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/constant_op/tf_ones.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/constant_op/tf_ones_like.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/constant_op/tf_random_normal.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/constant_op/tf_random_shuffle.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/constant_op/tf_random_uniform.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/constant_op/tf_range.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/constant_op/tf_truncated_normal.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/constant_op/tf_zeros.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/constant_op/tf_zeros_like.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/constant_op/tf_multinomial.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/constant_op/tf_random_crop.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/constant_op/tf_random_gamma.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/constant_op/tf_set_random_seed.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,6 +17,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_imag.coverage" NAME="tf_imag Coverage Results" MODIFIED="1501743169900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_random_crop.coverage" NAME="tf_random_crop Coverage Results" MODIFIED="1501920330930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/constant_op" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_round.coverage" NAME="tf_round Coverage Results" MODIFIED="1501588491620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_scalar_mul.coverage" NAME="tf_scalar_mul Coverage Results" MODIFIED="1501574109292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_constant.coverage" NAME="tf_constant Coverage Results" MODIFIED="1501918139833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/constant_op" />
@@ -36,9 +29,11 @@
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_cumsum.coverage" NAME="tf_cumsum Coverage Results" MODIFIED="1501750843174" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_zeros_like.coverage" NAME="tf_zeros_like Coverage Results" MODIFIED="1501915224015" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/constant_op" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_zeros.coverage" NAME="tf_zeros Coverage Results" MODIFIED="1501915081269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/constant_op" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_multinomial.coverage" NAME="tf_multinomial Coverage Results" MODIFIED="1501923193461" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/constant_op" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_reduce_min.coverage" NAME="tf_reduce_min Coverage Results" MODIFIED="1501744933145" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_matrix_band_part.coverage" NAME="tf_matrix_band_part Coverage Results" MODIFIED="1501669800578" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_sparse_segment_mean.coverage" NAME="tf_sparse_segment_mean Coverage Results" MODIFIED="1501760955911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_set_random_seed.coverage" NAME="tf_set_random_seed Coverage Results" MODIFIED="1501932227401" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/constant_op" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_qr.coverage" NAME="tf_qr Coverage Results" MODIFIED="1501676028121" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_random_normal.coverage" NAME="tf_random_normal Coverage Results" MODIFIED="1501919576800" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/constant_op" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_matrix_set_diag.coverage" NAME="tf_matrix_set_diag Coverage Results" MODIFIED="1501672042335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
@@ -94,6 +89,7 @@
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_reduce_sum.coverage" NAME="tf_reduce_sum Coverage Results" MODIFIED="1501744161036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_argmin.coverage" NAME="tf_argmin Coverage Results" MODIFIED="1501900664092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_lgamma.coverage" NAME="tf_lgamma Coverage Results" MODIFIED="1501655969918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_random_gamma.coverage" NAME="tf_random_gamma Coverage Results" MODIFIED="1501924412110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/constant_op" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_digamma.coverage" NAME="tf_digamma Coverage Results" MODIFIED="1501656550628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_squared_difference.coverage" NAME="tf_squared_difference Coverage Results" MODIFIED="1501658062489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_sqrt.coverage" NAME="tf_sqrt Coverage Results" MODIFIED="1501594315189" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
@@ -139,21 +135,51 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tf_random_uniform.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/constant_op/tf_random_uniform.py">
+      <file leaf-file-name="tf_random_crop.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/constant_op/tf_random_crop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state relative-caret-position="253">
+              <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tf_random_shuffle.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/constant_op/tf_random_shuffle.py">
+      <file leaf-file-name="tf_multinomial.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/constant_op/tf_multinomial.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tf_random_gamma.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/constant_op/tf_random_gamma.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tf_set_random_seed.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/constant_op/tf_set_random_seed.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="990">
+              <caret line="96" column="15" lean-forward="false" selection-start-line="84" selection-start-column="2" selection-end-line="96" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="random_ops.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/random_ops.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="501">
+              <caret line="335" column="59" lean-forward="true" selection-start-line="334" selection-start-column="1" selection-end-line="335" selection-end-column="59" />
               <folding />
             </state>
           </provider>
@@ -183,10 +209,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/math_ops_linear algebra/tf_self_adjoint_eig.py" />
-        <option value="$PROJECT_DIR$/math_ops_linear algebra/tf_self_adjoint_eigvals.py" />
-        <option value="$PROJECT_DIR$/math_ops_linear algebra/tf_svd.py" />
-        <option value="$PROJECT_DIR$/math_ops_linear algebra/tf_tensordot.py" />
         <option value="$PROJECT_DIR$/math_ops_linear algebra/tf_complex.py" />
         <option value="$PROJECT_DIR$/math_ops_linear algebra/tf_conj.py" />
         <option value="$PROJECT_DIR$/math_ops_linear algebra/tf_imag.py" />
@@ -234,6 +256,10 @@
         <option value="$PROJECT_DIR$/constant_op/tf_truncated_normal.py" />
         <option value="$PROJECT_DIR$/constant_op/tf_random_uniform.py" />
         <option value="$PROJECT_DIR$/constant_op/tf_random_shuffle.py" />
+        <option value="$PROJECT_DIR$/constant_op/tf_random_crop.py" />
+        <option value="$PROJECT_DIR$/constant_op/tf_multinomial.py" />
+        <option value="$PROJECT_DIR$/constant_op/tf_random_gamma.py" />
+        <option value="$PROJECT_DIR$/constant_op/tf_set_random_seed.py" />
       </list>
     </option>
   </component>
@@ -245,9 +271,9 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-7" />
-    <option name="y" value="1" />
-    <option name="width" value="1110" />
-    <option name="height" value="1038" />
+    <option name="y" value="24" />
+    <option name="width" value="1028" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -334,7 +360,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tf_random_shuffle">
+  <component name="RunManager" selected="Python.tf_set_random_seed">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -353,7 +379,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf_random_normal" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_multinomial" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -366,7 +392,43 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/constant_op/tf_random_normal.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/constant_op/tf_multinomial.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="tf_random_crop" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/constant_op" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TFAPI_translation" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/constant_op/tf_random_crop.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="tf_random_gamma" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/constant_op" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TFAPI_translation" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/constant_op/tf_random_gamma.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -389,7 +451,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf_random_uniform" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_set_random_seed" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -402,61 +464,25 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/constant_op/tf_random_uniform.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="tf_range" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/constant_op" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TFAPI_translation" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/constant_op/tf_range.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="tf_truncated_normal" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/constant_op" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TFAPI_translation" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/constant_op/tf_truncated_normal.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/constant_op/tf_set_random_seed.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.tf_range" />
-      <item index="1" class="java.lang.String" itemvalue="Python.tf_random_normal" />
-      <item index="2" class="java.lang.String" itemvalue="Python.tf_truncated_normal" />
-      <item index="3" class="java.lang.String" itemvalue="Python.tf_random_uniform" />
-      <item index="4" class="java.lang.String" itemvalue="Python.tf_random_shuffle" />
+      <item index="0" class="java.lang.String" itemvalue="Python.tf_random_shuffle" />
+      <item index="1" class="java.lang.String" itemvalue="Python.tf_random_crop" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tf_multinomial" />
+      <item index="3" class="java.lang.String" itemvalue="Python.tf_random_gamma" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tf_set_random_seed" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tf_random_shuffle" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tf_random_uniform" />
-        <item index="2" class="java.lang.String" itemvalue="Python.tf_truncated_normal" />
-        <item index="3" class="java.lang.String" itemvalue="Python.tf_random_normal" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tf_range" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tf_set_random_seed" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tf_random_gamma" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tf_multinomial" />
+        <item index="3" class="java.lang.String" itemvalue="Python.tf_random_crop" />
+        <item index="4" class="java.lang.String" itemvalue="Python.tf_random_shuffle" />
       </list>
     </recent_temporary>
   </component>
@@ -477,16 +503,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="1" width="1110" height="1038" extended-state="0" />
+    <frame x="-7" y="24" width="1028" height="1100" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24586777" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37286204" sideWeight="0.5038095" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27936146" sideWeight="0.4961905" order="2" side_tool="false" content_ui="tabs" x="23" y="356" width="1050" height="327" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26943558" sideWeight="0.4961905" order="2" side_tool="false" content_ui="tabs" x="23" y="356" width="1050" height="327" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24954128" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -512,41 +538,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/math_ops_linear algebra/tf_tensordot.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="10" column="21" lean-forward="false" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/math_ops_linear algebra/tf_complex.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/math_ops_linear algebra/tf_conj.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/math_ops_linear algebra/tf_real.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/math_ops_linear algebra/tf_imag.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/math_ops_advanced_function/tf_reduce_sum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="266">
@@ -871,10 +862,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/math_ops_basicoperation/00.py">
+    <entry file="file://$PROJECT_DIR$/constant_op/tf_random_shuffle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
+        <state relative-caret-position="368">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -887,10 +878,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/constant_op/tf_random_shuffle.py">
+    <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/random_ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="501">
+          <caret line="335" column="59" lean-forward="true" selection-start-line="334" selection-start-column="1" selection-end-line="335" selection-end-column="59" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops_basicoperation/00.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="4" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/constant_op/tf_random_crop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/constant_op/tf_multinomial.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="9" column="24" lean-forward="false" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/constant_op/tf_random_gamma.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" column="21" lean-forward="false" selection-start-line="18" selection-start-column="21" selection-end-line="18" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/constant_op/tf_set_random_seed.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="990">
+          <caret line="96" column="15" lean-forward="false" selection-start-line="84" selection-start-column="2" selection-end-line="96" selection-end-column="15" />
           <folding />
         </state>
       </provider>
