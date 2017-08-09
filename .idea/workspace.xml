@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db063f02-556f-4c0a-ab62-f8a0e1d7148e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Excitationfunction/func_img/Activation_function.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Excitationfunction/tf_nn_dropout.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Excitationfunction/tf_nn_relu.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Excitationfunction/tf_nn_relu6.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Excitationfunction/tf_nn_softplus.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Excitationfunction/tf_nn_bias_add.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Excitationfunction/tf_sigmoid.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Excitationfunction/tf_tanh.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,6 +61,7 @@
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_zeta.coverage" NAME="tf_zeta Coverage Results" MODIFIED="1501658804391" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_sparse_segment_sqrt_n.coverage" NAME="tf_sparse_segment_sqrt_n Coverage Results" MODIFIED="1501761820137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_random_uniform.coverage" NAME="tf_random_uniform Coverage Results" MODIFIED="1501919690202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/constant_op" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_nn_bias_add.coverage" NAME="tf_nn_bias_add Coverage Results" MODIFIED="1502265240274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Excitationfunction" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_pow.coverage" NAME="tf_pow Coverage Results" MODIFIED="1501594698119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_setdiff1d.coverage" NAME="tf_setdiff1d Coverage Results" MODIFIED="1501901483276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_self_adjoint_eig.coverage" NAME="tf_self_adjoint_eig Coverage Results" MODIFIED="1501725879857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
@@ -95,6 +94,7 @@
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_slice.coverage" NAME="tf_slice Coverage Results" MODIFIED="1502015352985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_random_crop.coverage" NAME="tf_random_crop Coverage Results" MODIFIED="1501920330930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/constant_op" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_round.coverage" NAME="tf_round Coverage Results" MODIFIED="1501588491620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_sigmoid.coverage" NAME="tf_sigmoid Coverage Results" MODIFIED="1502274147204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Excitationfunction" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_fill.coverage" NAME="tf_fill Coverage Results" MODIFIED="1501918135385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/constant_op" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_reduce_max.coverage" NAME="tf_reduce_max Coverage Results" MODIFIED="1501745359170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_size.coverage" NAME="tf_size Coverage Results" MODIFIED="1501999362787" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array_ops" />
@@ -135,6 +135,7 @@
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_ones_like.coverage" NAME="tf_ones_like Coverage Results" MODIFIED="1501917919297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/constant_op" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_einsum.coverage" NAME="tf_einsum Coverage Results" MODIFIED="1501750386612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_negative.coverage" NAME="tf_negative Coverage Results" MODIFIED="1501586772576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_tanh.coverage" NAME="tf_tanh Coverage Results" MODIFIED="1502274135933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Excitationfunction" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_reverse.coverage" NAME="tf_reverse Coverage Results" MODIFIED="1502254138653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_rsqrt.coverage" NAME="tf_rsqrt Coverage Results" MODIFIED="1501594533526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_string_to_number.coverage" NAME="tf_string_to_number Coverage Results" MODIFIED="1501996969097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array_ops" />
@@ -154,40 +155,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Activation_function.png" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Activation_function.png" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Excitationfunction/func_img/Activation_function.png">
           <provider selected="true" editor-type-id="images">
             <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tf_nn_softplus.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Excitationfunction/tf_nn_softplus.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tf_nn_dropout.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Excitationfunction/tf_nn_dropout.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="nn_ops.py" pinned="false" current-in-tab="true">
-        <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/nn_ops.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-129">
-              <caret line="1912" column="4" lean-forward="false" selection-start-line="1912" selection-start-column="4" selection-end-line="1912" selection-end-column="4" />
-              <folding />
-            </state>
           </provider>
         </entry>
       </file>
@@ -229,9 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/math_ops_advanced_function/tf_unique.py" />
-        <option value="$PROJECT_DIR$/math_ops_advanced_function/tf_edit_distance.py" />
-        <option value="$PROJECT_DIR$/math_ops_advanced_function/tf_invert_permutation.py" />
         <option value="$PROJECT_DIR$/constant_op/tf_zeros.py" />
         <option value="$PROJECT_DIR$/constant_op/tf_zeros_like.py" />
         <option value="$PROJECT_DIR$/constant_op/tf_ones.py" />
@@ -280,6 +248,9 @@
         <option value="$PROJECT_DIR$/Excitationfunction/tf_nn_relu6.py" />
         <option value="$PROJECT_DIR$/Excitationfunction/tf_nn_softplus.py" />
         <option value="$PROJECT_DIR$/Excitationfunction/tf_nn_dropout.py" />
+        <option value="$PROJECT_DIR$/Excitationfunction/tf_nn_bias_add.py" />
+        <option value="$PROJECT_DIR$/Excitationfunction/tf_sigmoid.py" />
+        <option value="$PROJECT_DIR$/Excitationfunction/tf_tanh.py" />
       </list>
     </option>
   </component>
@@ -291,7 +262,7 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-5" />
-    <option name="width" value="1823" />
+    <option name="width" value="1167" />
     <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -351,17 +322,6 @@
               <item name="TFAPI_translation" type="b2602c69:ProjectViewProjectNode" />
               <item name="TFAPI_translation" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="TFAPI_translation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TFAPI_translation" type="462c0819:PsiDirectoryNode" />
-              <item name="Excitationfunction" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TFAPI_translation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TFAPI_translation" type="462c0819:PsiDirectoryNode" />
-              <item name="Excitationfunction" type="462c0819:PsiDirectoryNode" />
-              <item name="func_img" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -392,7 +352,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tf_nn_dropout">
+  <component name="RunManager" selected="Python.tf_sigmoid">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -411,20 +371,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf_dynamic_stitch" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_nn_bias_add" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array_ops" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Excitationfunction" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array_ops/tf_dynamic_stitch.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Excitationfunction/tf_nn_bias_add.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -447,42 +407,6 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf_nn_relu" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Excitationfunction" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TFAPI_translation" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Excitationfunction/tf_nn_relu.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="tf_nn_relu6" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Excitationfunction" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TFAPI_translation" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Excitationfunction/tf_nn_relu6.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <configuration name="tf_nn_softplus" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -501,20 +425,56 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="tf_sigmoid" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Excitationfunction" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TFAPI_translation" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Excitationfunction/tf_sigmoid.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="tf_tanh" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Excitationfunction" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TFAPI_translation" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Excitationfunction/tf_tanh.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.tf_dynamic_stitch" />
-      <item index="1" class="java.lang.String" itemvalue="Python.tf_nn_relu" />
-      <item index="2" class="java.lang.String" itemvalue="Python.tf_nn_relu6" />
-      <item index="3" class="java.lang.String" itemvalue="Python.tf_nn_softplus" />
-      <item index="4" class="java.lang.String" itemvalue="Python.tf_nn_dropout" />
+      <item index="0" class="java.lang.String" itemvalue="Python.tf_nn_softplus" />
+      <item index="1" class="java.lang.String" itemvalue="Python.tf_nn_dropout" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tf_nn_bias_add" />
+      <item index="3" class="java.lang.String" itemvalue="Python.tf_tanh" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tf_sigmoid" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tf_nn_dropout" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tf_nn_softplus" />
-        <item index="2" class="java.lang.String" itemvalue="Python.tf_nn_relu6" />
-        <item index="3" class="java.lang.String" itemvalue="Python.tf_nn_relu" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tf_dynamic_stitch" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tf_sigmoid" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tf_tanh" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tf_nn_bias_add" />
+        <item index="3" class="java.lang.String" itemvalue="Python.tf_nn_dropout" />
+        <item index="4" class="java.lang.String" itemvalue="Python.tf_nn_softplus" />
       </list>
     </recent_temporary>
   </component>
@@ -535,16 +495,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-5" y="0" width="1823" height="1047" extended-state="0" />
-    <editor active="true" />
+    <frame x="-5" y="0" width="1167" height="1047" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13329552" sideWeight="0.4960894" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21228546" sideWeight="0.4960894" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37206703" sideWeight="0.5038095" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28893906" sideWeight="0.4961905" order="1" side_tool="false" content_ui="tabs" x="23" y="356" width="1050" height="327" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28893906" sideWeight="0.4961905" order="1" side_tool="false" content_ui="tabs" x="23" y="356" width="1050" height="327" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24954128" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -570,28 +529,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/constant_op/tf_random_uniform.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constant_op/tf_set_random_seed.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="57" column="1" lean-forward="false" selection-start-line="57" selection-start-column="1" selection-end-line="57" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/random_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="335" column="59" lean-forward="true" selection-start-line="334" selection-start-column="1" selection-end-line="335" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/constant_op/tf_random_gamma.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
@@ -904,19 +841,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Excitationfunction/tf_nn_softplus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Excitationfunction/func_img/Activation_function.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Excitationfunction/tf_nn_dropout.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
@@ -925,12 +849,49 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Excitationfunction/tf_nn_softplus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/nn_ops.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-129">
+        <state relative-caret-position="-405">
           <caret line="1912" column="4" lean-forward="false" selection-start-line="1912" selection-start-column="4" selection-end-line="1912" selection-end-column="4" />
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Excitationfunction/tf_nn_bias_add.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Excitationfunction/tf_sigmoid.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Excitationfunction/tf_tanh.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Excitationfunction/func_img/Activation_function.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
       </provider>
     </entry>
   </component>
