@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db063f02-556f-4c0a-ab62-f8a0e1d7148e" name="Default" comment="" />
+    <list default="true" id="db063f02-556f-4c0a-ab62-f8a0e1d7148e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/array_ops/tf_dynamic_partition.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/array_ops/tf_dynamic_stitch.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/array_ops/tf_gather.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/array_ops/tf_reverse.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/array_ops/tf_reverse_sequence.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/math_ops_linear algebra/tf_transpose.py" afterPath="$PROJECT_DIR$/math_ops_linear algebra/tf_transpose.py" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,11 +46,12 @@
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_eye.coverage" NAME="tf_eye Coverage Results" MODIFIED="1501661361412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_rank.coverage" NAME="tf_rank Coverage Results" MODIFIED="1501999617858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_diag_part.coverage" NAME="tf_diag_part Coverage Results" MODIFIED="1501660244566" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_dynamic_stitch.coverage" NAME="tf_dynamic_stitch Coverage Results" MODIFIED="1502259851690" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_betainc.coverage" NAME="tf_betainc Coverage Results" MODIFIED="1501659517047" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_igamma.coverage" NAME="tf_igamma Coverage Results" MODIFIED="1501658457209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_matrix_triangular_solve.coverage" NAME="tf_matrix_triangular_solve Coverage Results" MODIFIED="1501675729689" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_matrix_determinant.coverage" NAME="tf_matrix_determinant Coverage Results" MODIFIED="1501673080607" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
-    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_transpose.coverage" NAME="tf_transpose Coverage Results" MODIFIED="1501660722835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_transpose.coverage" NAME="tf_transpose Coverage Results" MODIFIED="1502254954972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_rint.coverage" NAME="tf_rint Coverage Results" MODIFIED="1501659631685" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_reduce_mean.coverage" NAME="tf_reduce_mean Coverage Results" MODIFIED="1501745657354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_where.coverage" NAME="tf_where Coverage Results" MODIFIED="1501902331997" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
@@ -57,6 +66,7 @@
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_pow.coverage" NAME="tf_pow Coverage Results" MODIFIED="1501594698119" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_setdiff1d.coverage" NAME="tf_setdiff1d Coverage Results" MODIFIED="1501901483276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_self_adjoint_eig.coverage" NAME="tf_self_adjoint_eig Coverage Results" MODIFIED="1501725879857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_dynamic_partition.coverage" NAME="tf_dynamic_partition Coverage Results" MODIFIED="1502256889658" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_exp.coverage" NAME="tf_exp Coverage Results" MODIFIED="1501595085700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_mul.coverage" NAME="tf.mul Coverage Results" MODIFIED="1501485156315" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_reciprocal.coverage" NAME="tf_reciprocal Coverage Results" MODIFIED="1501936296678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_basicoperation" />
@@ -92,6 +102,7 @@
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_matrix_set_diag.coverage" NAME="tf_matrix_set_diag Coverage Results" MODIFIED="1501672042335" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_count_nonzero.coverage" NAME="tf_count_nonzero Coverage Results" MODIFIED="1501747183743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_erf.coverage" NAME="tf_erf Coverage Results" MODIFIED="1501657310479" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_gather.coverage" NAME="tf_gather Coverage Results" MODIFIED="1502255815591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_to_float.coverage" NAME="tf_to_float Coverage Results" MODIFIED="1501997430945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_polygamma.coverage" NAME="tf_polygamma Coverage Results" MODIFIED="1501659175621" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_unsorted_segment_sum.coverage" NAME="tf_unsorted_segment_sum Coverage Results" MODIFIED="1501758609806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
@@ -114,12 +125,14 @@
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_argmin.coverage" NAME="tf_argmin Coverage Results" MODIFIED="1501900664092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_lgamma.coverage" NAME="tf_lgamma Coverage Results" MODIFIED="1501655969918" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_digamma.coverage" NAME="tf_digamma Coverage Results" MODIFIED="1501656550628" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_reverse_sequence.coverage" NAME="tf_reverse_sequence Coverage Results" MODIFIED="1502253374606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_squared_difference.coverage" NAME="tf_squared_difference Coverage Results" MODIFIED="1501658062489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_to_int32.coverage" NAME="tf_to_int32 Coverage Results" MODIFIED="1501998041028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_argmax.coverage" NAME="tf_argmax Coverage Results" MODIFIED="1501900951819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_ones_like.coverage" NAME="tf_ones_like Coverage Results" MODIFIED="1501917919297" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/constant_op" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_einsum.coverage" NAME="tf_einsum Coverage Results" MODIFIED="1501750386612" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_negative.coverage" NAME="tf_negative Coverage Results" MODIFIED="1501586772576" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_reverse.coverage" NAME="tf_reverse Coverage Results" MODIFIED="1502254138653" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_rsqrt.coverage" NAME="tf_rsqrt Coverage Results" MODIFIED="1501594533526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_string_to_number.coverage" NAME="tf_string_to_number Coverage Results" MODIFIED="1501996969097" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_to_double.coverage" NAME="tf_to_double Coverage Results" MODIFIED="1501997281420" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array_ops" />
@@ -138,31 +151,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="00.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/math_ops_basicoperation/00.py">
+      <file leaf-file-name="tf_gather.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/array_ops/tf_gather.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+            <state relative-caret-position="483">
+              <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tf_concat.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/array_ops/tf_concat.py">
+      <file leaf-file-name="tf_dynamic_partition.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/array_ops/tf_dynamic_partition.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="30" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="array_ops.py" pinned="false" current-in-tab="false">
-        <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/array_ops.py">
+      <file leaf-file-name="tf_dynamic_stitch.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/array_ops/tf_dynamic_stitch.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="49">
-              <caret line="963" column="0" lean-forward="false" selection-start-line="963" selection-start-column="0" selection-end-line="963" selection-end-column="40" />
+            <state relative-caret-position="799">
+              <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gen_data_flow_ops.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/gen_data_flow_ops.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="9614">
+              <caret line="429" column="4" lean-forward="false" selection-start-line="429" selection-start-column="4" selection-end-line="429" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -193,6 +216,8 @@
       <find>expand_dims</find>
       <find>pack</find>
       <find>unpack</find>
+      <find>gather</find>
+      <find>dynamic_partition</find>
     </findStrings>
     <dirStrings>
       <dir>F:\Git\TFAPI_translation</dir>
@@ -204,12 +229,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/math_ops_advanced_function/tf_segment_mean.py" />
-        <option value="$PROJECT_DIR$/math_ops_advanced_function/tf_unsorted_segment_sum.py" />
-        <option value="$PROJECT_DIR$/math_ops_advanced_function/tf_unsorted_segment_max.py" />
-        <option value="$PROJECT_DIR$/math_ops_advanced_function/tf_sparse_segment_sum.py" />
-        <option value="$PROJECT_DIR$/math_ops_advanced_function/tf_sparse_segment_mean.py" />
-        <option value="$PROJECT_DIR$/math_ops_advanced_function/tf_sparse_segment_sqrt_n.py" />
         <option value="$PROJECT_DIR$/math_ops_advanced_function/tf_argmin.py" />
         <option value="$PROJECT_DIR$/math_ops_advanced_function/tf_argmax.py" />
         <option value="$PROJECT_DIR$/math_ops_advanced_function/tf_setdiff1d.py" />
@@ -255,6 +274,12 @@
         <option value="$PROJECT_DIR$/array_ops/tf_pad.py" />
         <option value="$PROJECT_DIR$/array_ops/tf_pack.py" />
         <option value="$PROJECT_DIR$/array_ops/tf_concat.py" />
+        <option value="$PROJECT_DIR$/array_ops/tf_reverse_sequence.py" />
+        <option value="$PROJECT_DIR$/array_ops/tf_reverse.py" />
+        <option value="$PROJECT_DIR$/math_ops_linear algebra/tf_transpose.py" />
+        <option value="$PROJECT_DIR$/array_ops/tf_gather.py" />
+        <option value="$PROJECT_DIR$/array_ops/tf_dynamic_partition.py" />
+        <option value="$PROJECT_DIR$/array_ops/tf_dynamic_stitch.py" />
       </list>
     </option>
   </component>
@@ -264,9 +289,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="-8" />
-    <option name="width" value="1136" />
+    <option name="width" value="1142" />
     <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager">
@@ -303,22 +328,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="TFAPI_translation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TFAPI_translation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TFAPI_translation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TFAPI_translation" type="462c0819:PsiDirectoryNode" />
-              <item name="array_ops" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
       <pane id="Scratches">
         <subPane>
           <expand>
@@ -330,6 +339,22 @@
               <item name="" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
               <item name="Extensions" type="d62648e6:ScratchProjectViewPane$MyRootNode" />
               <item name="com.intellij.database" type="61db50fb:ScratchProjectViewPane$MyPsiNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="TFAPI_translation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TFAPI_translation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TFAPI_translation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TFAPI_translation" type="462c0819:PsiDirectoryNode" />
+              <item name="array_ops" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -355,7 +380,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tf_pack">
+  <component name="RunManager" selected="Python.tf_dynamic_stitch">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -374,7 +399,7 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf_concat" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_dynamic_partition" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -387,12 +412,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array_ops/tf_concat.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array_ops/tf_dynamic_partition.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf_pack" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_dynamic_stitch" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -405,12 +430,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array_ops/tf_pack.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array_ops/tf_dynamic_stitch.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf_pad" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_gather" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -423,12 +448,12 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array_ops/tf_pad.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array_ops/tf_gather.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf_split" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_reverse" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -441,43 +466,43 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array_ops/tf_split.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array_ops/tf_reverse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf.tile" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_transpose" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array_ops" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/math_ops_linear algebra" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array_ops/tf.tile.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops_linear algebra/tf_transpose.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.tf_split" />
-      <item index="1" class="java.lang.String" itemvalue="Python.tf.tile" />
-      <item index="2" class="java.lang.String" itemvalue="Python.tf_pad" />
-      <item index="3" class="java.lang.String" itemvalue="Python.tf_concat" />
-      <item index="4" class="java.lang.String" itemvalue="Python.tf_pack" />
+      <item index="0" class="java.lang.String" itemvalue="Python.tf_reverse" />
+      <item index="1" class="java.lang.String" itemvalue="Python.tf_transpose" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tf_gather" />
+      <item index="3" class="java.lang.String" itemvalue="Python.tf_dynamic_partition" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tf_dynamic_stitch" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tf_pack" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tf_concat" />
-        <item index="2" class="java.lang.String" itemvalue="Python.tf_pad" />
-        <item index="3" class="java.lang.String" itemvalue="Python.tf.tile" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tf_split" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tf_dynamic_stitch" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tf_dynamic_partition" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tf_gather" />
+        <item index="3" class="java.lang.String" itemvalue="Python.tf_transpose" />
+        <item index="4" class="java.lang.String" itemvalue="Python.tf_reverse" />
       </list>
     </recent_temporary>
   </component>
@@ -498,18 +523,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1136" height="1039" extended-state="0" />
+    <frame x="-8" y="0" width="1142" height="1039" extended-state="1" />
+    <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14417745" sideWeight="0.4960894" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37206703" sideWeight="0.5038095" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32915717" sideWeight="0.4961905" order="1" side_tool="false" content_ui="tabs" x="23" y="356" width="1050" height="327" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18494424" sideWeight="0.4960894" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.12723215" sideWeight="0.5039106" order="10" side_tool="true" content_ui="tabs" x="25" y="368" width="1870" height="303" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.04328018" sideWeight="0.4961905" order="1" side_tool="false" content_ui="tabs" x="23" y="356" width="1050" height="327" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24954128" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990878" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -518,6 +543,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.12723215" sideWeight="0.5039106" order="10" side_tool="true" content_ui="tabs" x="25" y="368" width="1870" height="303" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -532,70 +558,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/math_ops_advanced_function/tf_argmin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/gen_array_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="1377" column="48" lean-forward="true" selection-start-line="1377" selection-start-column="2" selection-end-line="1377" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/math_ops_advanced_function/tf_edit_distance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/math_ops_advanced_function/tf_unique.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constant_op/tf_zeros_like.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constant_op/tf_zeros.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constant_op/tf_constant.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constant_op/tf_fill.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/constant_op/tf_ones_like.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/constant_op/tf_ones.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -742,7 +704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="17" column="17" lean-forward="false" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,7 +725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -779,7 +739,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" column="36" lean-forward="false" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -823,7 +782,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="729">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -831,7 +789,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -839,7 +796,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="17" column="41" lean-forward="false" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -847,7 +803,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="452">
           <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -855,7 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="19" column="30" lean-forward="true" selection-start-line="19" selection-start-column="30" selection-end-line="19" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -863,7 +817,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -871,31 +824,21 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="298">
           <caret line="13" column="35" lean-forward="true" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array_ops/tf_pack.py" />
+    <entry file="file://$PROJECT_DIR$/array_ops/tf_reverse_sequence.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="44" lean-forward="false" selection-start-line="15" selection-start-column="44" selection-end-line="15" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/math_ops_basicoperation/00.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
-          <caret line="16" column="3" lean-forward="true" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/array_ops/tf_pack.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/array_ops.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="49">
-          <caret line="963" column="0" lean-forward="false" selection-start-line="963" selection-start-column="0" selection-end-line="963" selection-end-column="40" />
-          <folding />
+          <caret line="16" column="3" lean-forward="false" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
         </state>
       </provider>
     </entry>
@@ -903,6 +846,74 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="299">
           <caret line="13" column="12" lean-forward="false" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/array_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="2311" column="30" lean-forward="false" selection-start-line="2311" selection-start-column="9" selection-end-line="2311" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array_ops/tf_reverse.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="57" column="24" lean-forward="true" selection-start-line="57" selection-start-column="24" selection-end-line="57" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops_linear algebra/tf_transpose.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/framework/op_def_library.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-696">
+          <caret line="288" column="6" lean-forward="false" selection-start-line="288" selection-start-column="6" selection-end-line="288" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/gen_array_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="1205" column="29" lean-forward="true" selection-start-line="1205" selection-start-column="11" selection-end-line="1205" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array_ops/tf_gather.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="23" lean-forward="false" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array_ops/tf_dynamic_partition.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="38" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/gen_data_flow_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9614">
+          <caret line="429" column="4" lean-forward="false" selection-start-line="429" selection-start-column="4" selection-end-line="429" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array_ops/tf_dynamic_stitch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="799">
+          <caret line="64" column="5" lean-forward="true" selection-start-line="64" selection-start-column="5" selection-end-line="64" selection-end-column="5" />
           <folding />
         </state>
       </provider>
