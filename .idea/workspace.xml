@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="db063f02-556f-4c0a-ab62-f8a0e1d7148e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/array_ops/tf_reshape.py" afterPath="$PROJECT_DIR$/array_ops/tf_reshape.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -79,7 +80,7 @@
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_real.coverage" NAME="tf_real Coverage Results" MODIFIED="1501743229750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_norm.coverage" NAME="tf_norm Coverage Results" MODIFIED="1501672908765" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_matrix_solve.coverage" NAME="tf_matrix_solve Coverage Results" MODIFIED="1501674117900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
-    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_reshape.coverage" NAME="tf_reshape Coverage Results" MODIFIED="1502000547000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_reshape.coverage" NAME="tf_reshape Coverage Results" MODIFIED="1502346164872" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_unsorted_segment_max.coverage" NAME="tf_unsorted_segment_max Coverage Results" MODIFIED="1501758645137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_ones.coverage" NAME="tf_ones Coverage Results" MODIFIED="1501916571670" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/constant_op" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_concat.coverage" NAME="tf_concat Coverage Results" MODIFIED="1502023850781" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array_ops" />
@@ -152,10 +153,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Activation_function.png" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Activation_function.png" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Excitationfunction/func_img/Activation_function.png">
           <provider selected="true" editor-type-id="images">
             <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tf_reshape.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/array_ops/tf_reshape.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+              <folding />
+            </state>
           </provider>
         </entry>
       </file>
@@ -163,7 +174,7 @@
         <entry file="file://$PROJECT_DIR$/math_ops_advanced_function/tf_reduce_mean.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="506">
-              <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+              <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -199,6 +210,9 @@
       <find>argmax</find>
       <find>cast</find>
       <find>reduce_mean</find>
+      <find>trunc</find>
+      <find>trun</find>
+      <find>reshape</find>
     </findStrings>
     <dirStrings>
       <dir>F:\Git\TFAPI_translation</dir>
@@ -238,7 +252,6 @@
         <option value="$PROJECT_DIR$/array_ops/tf_shape.py" />
         <option value="$PROJECT_DIR$/array_ops/tf_size.py" />
         <option value="$PROJECT_DIR$/array_ops/tf_rank.py" />
-        <option value="$PROJECT_DIR$/array_ops/tf_reshape.py" />
         <option value="$PROJECT_DIR$/array_ops/tf_expand_dims.py" />
         <option value="$PROJECT_DIR$/array_ops/tf_squeeze.py" />
         <option value="$PROJECT_DIR$/array_ops/tf_slice.py" />
@@ -261,6 +274,7 @@
         <option value="$PROJECT_DIR$/Excitationfunction/tf_nn_bias_add.py" />
         <option value="$PROJECT_DIR$/Excitationfunction/tf_sigmoid.py" />
         <option value="$PROJECT_DIR$/Excitationfunction/tf_tanh.py" />
+        <option value="$PROJECT_DIR$/array_ops/tf_reshape.py" />
       </list>
     </option>
   </component>
@@ -270,11 +284,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="736" />
-    <option name="y" value="46" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="3" />
+    <option name="y" value="5" />
     <option name="width" value="1167" />
-    <option name="height" value="1047" />
+    <option name="height" value="1035" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -341,7 +355,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Mofan_demo" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
     <property name="SearchEverywhereHistoryKey" value="inv&#9;null&#9;null&#10;sign&#9;null&#9;null&#10;neg&#9;null&#9;null" />
   </component>
@@ -363,7 +377,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tf_sigmoid">
+  <component name="RunManager" selected="Python.tf_reshape">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -418,20 +432,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf_nn_softplus" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_reshape" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Excitationfunction" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array_ops" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Excitationfunction/tf_nn_softplus.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array_ops/tf_reshape.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -473,19 +487,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.tf_nn_softplus" />
-      <item index="1" class="java.lang.String" itemvalue="Python.tf_nn_dropout" />
-      <item index="2" class="java.lang.String" itemvalue="Python.tf_nn_bias_add" />
-      <item index="3" class="java.lang.String" itemvalue="Python.tf_tanh" />
-      <item index="4" class="java.lang.String" itemvalue="Python.tf_sigmoid" />
+      <item index="0" class="java.lang.String" itemvalue="Python.tf_nn_dropout" />
+      <item index="1" class="java.lang.String" itemvalue="Python.tf_nn_bias_add" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tf_tanh" />
+      <item index="3" class="java.lang.String" itemvalue="Python.tf_sigmoid" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tf_reshape" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tf_sigmoid" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tf_tanh" />
-        <item index="2" class="java.lang.String" itemvalue="Python.tf_nn_bias_add" />
-        <item index="3" class="java.lang.String" itemvalue="Python.tf_nn_dropout" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tf_nn_softplus" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tf_reshape" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tf_sigmoid" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tf_tanh" />
+        <item index="3" class="java.lang.String" itemvalue="Python.tf_nn_bias_add" />
+        <item index="4" class="java.lang.String" itemvalue="Python.tf_nn_dropout" />
       </list>
     </recent_temporary>
   </component>
@@ -506,13 +520,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="736" y="46" width="1167" height="1047" extended-state="1" />
+    <frame x="3" y="5" width="1167" height="1035" extended-state="0" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2195122" sideWeight="0.4960894" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2303523" sideWeight="0.4960894" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37206703" sideWeight="0.5038095" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.12723215" sideWeight="0.5039106" order="10" side_tool="true" content_ui="tabs" x="25" y="368" width="1870" height="303" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24954128" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -523,8 +536,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28893906" sideWeight="0.4961905" order="1" side_tool="false" content_ui="tabs" x="23" y="356" width="1050" height="327" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2883295" sideWeight="0.4961905" order="1" side_tool="false" content_ui="tabs" x="23" y="356" width="1050" height="327" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.12723215" sideWeight="0.5039106" order="10" side_tool="true" content_ui="tabs" x="25" y="368" width="1870" height="303" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990878" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
     </layout>
@@ -677,13 +691,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="729">
           <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/array_ops/tf_reshape.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="9" lean-forward="false" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -867,7 +874,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="6" lean-forward="false" selection-start-line="2" selection-start-column="6" selection-end-line="2" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -875,14 +881,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="0" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/math_ops_advanced_function/tf_reduce_mean.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="506">
-          <caret line="22" column="13" lean-forward="true" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
       </provider>
@@ -890,6 +895,14 @@
     <entry file="file://$PROJECT_DIR$/Excitationfunction/func_img/Activation_function.png">
       <provider selected="true" editor-type-id="images">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array_ops/tf_reshape.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>

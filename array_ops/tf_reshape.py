@@ -14,10 +14,12 @@ d = tf.reshape(data, [-1])
 print(sess.run(d))
 # [1 1 1 2 2 2 3 3 3 4 4 4]
 d = tf.reshape(data, [3, 4])
-# print(sess.run(d))
+print(sess.run(d))
 # [[1 1 1 2]
 #  [2 2 3 3]
 #  [3 4 4 4]]
+d = tf.reshape(data, [-1, 3, 2])
+print(sess.run(d))
 """输入参数：
   ● tensor: 一个Tensor。
   ● shape: 一个Tensor，数据类型是int32，定义输出数据的维度。
