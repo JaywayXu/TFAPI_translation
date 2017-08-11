@@ -3,7 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="db063f02-556f-4c0a-ab62-f8a0e1d7148e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/array_ops/tf_reshape.py" afterPath="$PROJECT_DIR$/array_ops/tf_reshape.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Excitationfunction/func_img/Activation_function.png" afterPath="$PROJECT_DIR$/NeuralNekworks_function/func_img/Activation_function.png" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Excitationfunction/tf_nn_bias_add.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/tf_nn_bias_add.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Excitationfunction/tf_nn_dropout.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/tf_nn_dropout.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Excitationfunction/tf_nn_relu.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/tf_nn_relu.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Excitationfunction/tf_nn_relu6.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/tf_nn_relu6.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Excitationfunction/tf_nn_softplus.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/tf_nn_softplus.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Excitationfunction/tf_sigmoid.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/tf_sigmoid.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Excitationfunction/tf_tanh.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/tf_tanh.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -154,13 +161,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="Activation_function.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Excitationfunction/func_img/Activation_function.png">
+        <entry file="file://$PROJECT_DIR$/NeuralNekworks_function/func_img/Activation_function.png">
           <provider selected="true" editor-type-id="images">
             <state />
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tf_reshape.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="tf_reshape.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/array_ops/tf_reshape.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="483">
@@ -170,7 +177,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tf_reduce_mean.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tf_reduce_mean.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/math_ops_advanced_function/tf_reduce_mean.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="506">
@@ -284,9 +291,9 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="3" />
-    <option name="y" value="5" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="293" />
+    <option name="y" value="28" />
     <option name="width" value="1167" />
     <option name="height" value="1035" />
   </component>
@@ -308,6 +315,22 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Default">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TFAPI_translation" type="cbb8eebc:String" user="TFAPI_translation" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TFAPI_translation" type="cbb8eebc:String" user="TFAPI_translation" />
+              <item name=".idea" type="cbb8eebc:String" user=".idea" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="Scratches">
         <subPane>
           <expand>
@@ -331,21 +354,10 @@
               <item name="TFAPI_translation" type="b2602c69:ProjectViewProjectNode" />
               <item name="TFAPI_translation" type="462c0819:PsiDirectoryNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Default">
-          <expand>
             <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="TFAPI_translation" type="cbb8eebc:String" user="TFAPI_translation" />
-            </path>
-            <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="TFAPI_translation" type="cbb8eebc:String" user="TFAPI_translation" />
-              <item name=".idea" type="cbb8eebc:String" user=".idea" />
+              <item name="TFAPI_translation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TFAPI_translation" type="462c0819:PsiDirectoryNode" />
+              <item name="NeuralNekworks_function" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -355,7 +367,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Mofan_demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TF-_for_MI" />
     <property name="settings.editor.selected.configurable" value="preferences.customizations" />
     <property name="SearchEverywhereHistoryKey" value="inv&#9;null&#9;null&#10;sign&#9;null&#9;null&#10;neg&#9;null&#9;null" />
   </component>
@@ -520,9 +532,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="3" y="5" width="1167" height="1035" extended-state="0" />
+    <frame x="293" y="28" width="1167" height="1035" extended-state="1" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2303523" sideWeight="0.4960894" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23938572" sideWeight="0.4960894" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37206703" sideWeight="0.5038095" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -814,28 +826,28 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Excitationfunction/tf_nn_relu6.py">
+    <entry file="file://$PROJECT_DIR$/NeuralNekworks_function/tf_nn_relu6.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="28" lean-forward="false" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Excitationfunction/tf_nn_relu.py">
+    <entry file="file://$PROJECT_DIR$/NeuralNekworks_function/tf_nn_relu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
           <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Excitationfunction/tf_nn_dropout.py">
+    <entry file="file://$PROJECT_DIR$/NeuralNekworks_function/tf_nn_dropout.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="17" column="22" lean-forward="true" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Excitationfunction/tf_nn_softplus.py">
+    <entry file="file://$PROJECT_DIR$/NeuralNekworks_function/tf_nn_softplus.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
           <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
@@ -849,21 +861,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Excitationfunction/tf_nn_bias_add.py">
+    <entry file="file://$PROJECT_DIR$/NeuralNekworks_function/tf_nn_bias_add.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="322">
           <caret line="14" column="40" lean-forward="false" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Excitationfunction/tf_sigmoid.py">
+    <entry file="file://$PROJECT_DIR$/NeuralNekworks_function/tf_sigmoid.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Excitationfunction/tf_tanh.py">
+    <entry file="file://$PROJECT_DIR$/NeuralNekworks_function/tf_tanh.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="40" lean-forward="false" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
@@ -884,23 +896,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/math_ops_advanced_function/tf_reduce_mean.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Excitationfunction/func_img/Activation_function.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/array_ops/tf_reshape.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="483">
           <caret line="21" column="16" lean-forward="false" selection-start-line="21" selection-start-column="16" selection-end-line="21" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuralNekworks_function/func_img/Activation_function.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/math_ops_advanced_function/tf_reduce_mean.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" column="13" lean-forward="false" selection-start-line="22" selection-start-column="13" selection-end-line="22" selection-end-column="13" />
           <folding />
         </state>
       </provider>
