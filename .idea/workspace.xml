@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db063f02-556f-4c0a-ab62-f8a0e1d7148e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Excitationfunction/func_img/Activation_function.png" afterPath="$PROJECT_DIR$/NeuralNekworks_function/func_img/Activation_function.png" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Excitationfunction/tf_nn_bias_add.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/tf_nn_bias_add.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Excitationfunction/tf_nn_dropout.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/tf_nn_dropout.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Excitationfunction/tf_nn_relu.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/tf_nn_relu.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Excitationfunction/tf_nn_relu6.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/tf_nn_relu6.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Excitationfunction/tf_nn_softplus.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/tf_nn_softplus.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Excitationfunction/tf_sigmoid.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/tf_sigmoid.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Excitationfunction/tf_tanh.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/tf_tanh.py" />
-    </list>
+    <list default="true" id="db063f02-556f-4c0a-ab62-f8a0e1d7148e" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -291,7 +281,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
+  <component name="ProjectFrameBounds">
     <option name="x" value="293" />
     <option name="y" value="28" />
     <option name="width" value="1167" />
@@ -532,7 +522,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="293" y="28" width="1167" height="1035" extended-state="1" />
+    <frame x="293" y="28" width="1167" height="1035" extended-state="0" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23938572" sideWeight="0.4960894" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
