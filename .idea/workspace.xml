@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db063f02-556f-4c0a-ab62-f8a0e1d7148e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Graph_op/tf_Graph.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Session/tf_Session.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Session/tf_Session_run.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_equal.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_greater.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_less.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_logical.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Session/tf_Session_run.py" afterPath="$PROJECT_DIR$/Session/tf_Session_run.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -176,8 +169,8 @@
       <file leaf-file-name="tf_Session_run.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Session/tf_Session_run.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="46">
+              <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -940,8 +933,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Session/tf_Session_run.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="46">
+          <caret line="2" column="20" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="20" />
           <folding />
         </state>
       </provider>
