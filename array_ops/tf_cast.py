@@ -17,3 +17,15 @@ print(sess.run(d))
   ● 一个Tensor或者SparseTensor，数据维度和x相同。
 提示：
   ● 错误: 如果x是不能被转换成dtype类型的，那么将报错。"""
+"""cast函数与条件语句混用
+import tensorflow as tf
+
+a = tf.constant([[0.3], [0.5], [0.6], [0.7]])
+predicted = tf.cast(a > 0.5, tf.float32)
+with tf.Session() as sess:
+    print(sess.run(predicted))
+# [[ 0.]
+#  [ 0.]
+#  [ 1.]
+#  [ 1.]]
+"""
