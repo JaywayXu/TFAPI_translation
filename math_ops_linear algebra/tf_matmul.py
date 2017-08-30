@@ -16,3 +16,12 @@ sess.close()
 
 # z==>[[ 58  64]
 #      [139 154]]
+# Input = tf.range(1, 158, 4, dtype=tf.float32)
+# W = tf.ones([4, 3])
+# X = tf.reshape(Input, [1, 10, 4])
+# Y = tf.matmul(X, W)
+# with tf.Session() as sess:
+#     print(sess.run(Input))
+#     print(sess.run(X))
+#     print(sess.run(Y))
+# Shape must be rank 2 but is rank 3 for 'MatMul_1' (op: 'MatMul') with input shapes: [1,10,4], [4,3].

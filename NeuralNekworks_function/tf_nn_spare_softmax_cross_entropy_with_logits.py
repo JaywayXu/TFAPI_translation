@@ -8,6 +8,7 @@ labels[i]是[0,num_classes)的一个索引, type为int32或int64,即labels限定
 _sentinel:本质上是不用的参数，不用填
 logits：shape为[batch_size,num_classes],type为float32或float64
 name:操作的名字，可填可不填
+此函数相对于tf_nn_softmax_cross_entropy_with_logits针对于训练集中的每个样本对应于单个类别进行了专门的优化.
 """
 import tensorflow as tf
 

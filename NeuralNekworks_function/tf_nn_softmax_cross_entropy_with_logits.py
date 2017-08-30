@@ -26,4 +26,5 @@ with tf.Session() as sess:
     name: 为这个操作取个名字。
 输出参数：
 一个 Tensor ，数据维度是一维的，长度是 batch_size，数据类型都和 logits 相同。
+相对于softmax_cross_entropy的另一个函数,此函数允许用户使用包含每个样本属于每个类别的概率信息的训练集
 """
