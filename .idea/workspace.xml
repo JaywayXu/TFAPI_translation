@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db063f02-556f-4c0a-ab62-f8a0e1d7148e" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Convolution/tf_nn_conv2d.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Convolution/tf_nn_depthwise_conv2d.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Convolution/tf_nn_separable_conv2d.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/math_ops_basicoperation/tf_minimum.py" afterPath="$PROJECT_DIR$/math_ops_basicoperation/tf_minimum.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NeuralNekworks_function/tf_nn_bias_add.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Activefunction/tf_nn_bias_add.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NeuralNekworks_function/tf_nn_dropout.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Activefunction/tf_nn_dropout.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NeuralNekworks_function/tf_nn_relu.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Activefunction/tf_nn_relu.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NeuralNekworks_function/tf_nn_relu6.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Activefunction/tf_nn_relu6.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NeuralNekworks_function/tf_nn_sigmoid_cross_entropy_with_logits.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Classification/tf_nn_sigmoid_cross_entropy_with_logits.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NeuralNekworks_function/tf_nn_softmax.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Classification/tf_nn_softmax.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NeuralNekworks_function/tf_nn_softmax_cross_entropy_with_logits.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Classification/tf_nn_softmax_cross_entropy_with_logits.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NeuralNekworks_function/tf_nn_softplus.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Activefunction/tf_nn_softplus.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NeuralNekworks_function/tf_nn_spare_softmax_cross_entropy_with_logits.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Classification/tf_nn_spare_softmax_cross_entropy_with_logits.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NeuralNekworks_function/tf_nn_weighted_cross_entropy_with_logits.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Classification/tf_nn_weighted_cross_entropy_with_logits.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NeuralNekworks_function/tf_sigmoid.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Activefunction/tf_sigmoid.py" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/NeuralNekworks_function/tf_tanh.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Activefunction/tf_tanh.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -109,6 +99,7 @@
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_imag.coverage" NAME="tf_imag Coverage Results" MODIFIED="1501743169900" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_tile.coverage" NAME="tf.tile Coverage Results" MODIFIED="1502019367329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_slice.coverage" NAME="tf_slice Coverage Results" MODIFIED="1502015352985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array_ops" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_nn_separable_conv2d.coverage" NAME="tf_nn_separable_conv2d Coverage Results" MODIFIED="1504614503438" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NeuralNekworks_function/Convolution" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_random_crop.coverage" NAME="tf_random_crop Coverage Results" MODIFIED="1501920330930" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/constant_op" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_round.coverage" NAME="tf_round Coverage Results" MODIFIED="1501588491620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_sigmoid.coverage" NAME="tf_sigmoid Coverage Results" MODIFIED="1502274147204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Excitationfunction" />
@@ -137,9 +128,11 @@
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_segment_max.coverage" NAME="tf_segment_max Coverage Results" MODIFIED="1501752083743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_div.coverage" NAME="tf_div Coverage Results" MODIFIED="1501557225283" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_matrix_solve_Is.coverage" NAME="tf_matrix_solve_Is Coverage Results" MODIFIED="1501675914451" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$1.coverage" NAME="1 Coverage Results" MODIFIED="1504609292955" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NeuralNekworks_function/Convolution" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_cast.coverage" NAME="tf_cast Coverage Results" MODIFIED="1501998343397" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_shape.coverage" NAME="tf_shape Coverage Results" MODIFIED="1501998754476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_matrix_diag.coverage" NAME="tf_matrix_diag Coverage Results" MODIFIED="1501662617336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_nn_depthwise_conv2d.coverage" NAME="tf_nn_depthwise_conv2d Coverage Results" MODIFIED="1504612891480" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NeuralNekworks_function/Convolution" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_add_n.coverage" NAME="tf_add_n Coverage Results" MODIFIED="1501577954637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_linspace.coverage" NAME="tf_linspace Coverage Results" MODIFIED="1501918297147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/constant_op" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_square.coverage" NAME="tf_square Coverage Results" MODIFIED="1501588328907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
@@ -179,21 +172,35 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tf_expand_dims.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/array_ops/tf_expand_dims.py">
+      <file leaf-file-name="tf_nn_depthwise_conv2d.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NeuralNekworks_function/Convolution/tf_nn_depthwise_conv2d.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="4" selection-end-column="73" />
-              <folding />
+            <state relative-caret-position="111">
+              <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+              <folding>
+                <element signature="e#747#765#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tf_minimum.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/math_ops_basicoperation/tf_minimum.py">
+      <file leaf-file-name="tf_nn_separable_conv2d.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/NeuralNekworks_function/Convolution/tf_nn_separable_conv2d.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
+            <state relative-caret-position="46">
+              <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+              <folding>
+                <element signature="e#822#840#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="nn_impl.py" pinned="false" current-in-tab="false">
+        <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/nn_impl.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-608">
+              <caret line="398" column="0" lean-forward="false" selection-start-line="398" selection-start-column="0" selection-end-line="405" selection-end-column="39" />
               <folding />
             </state>
           </provider>
@@ -254,11 +261,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/array_ops/tf_gather.py" />
-        <option value="$PROJECT_DIR$/array_ops/tf_dynamic_partition.py" />
-        <option value="$PROJECT_DIR$/array_ops/tf_dynamic_stitch.py" />
-        <option value="$PROJECT_DIR$/Excitationfunction/tf_nn_relu.py" />
-        <option value="$PROJECT_DIR$/Excitationfunction/tf_nn_relu6.py" />
         <option value="$PROJECT_DIR$/Excitationfunction/tf_nn_softplus.py" />
         <option value="$PROJECT_DIR$/Excitationfunction/tf_nn_dropout.py" />
         <option value="$PROJECT_DIR$/Excitationfunction/tf_nn_bias_add.py" />
@@ -305,6 +307,11 @@
         <option value="$PROJECT_DIR$/math_ops_linear algebra/tf_matmul.py" />
         <option value="$PROJECT_DIR$/math_ops_advanced_function/tf_argmax.py" />
         <option value="$PROJECT_DIR$/math_ops_basicoperation/tf_minimum.py" />
+        <option value="$PROJECT_DIR$/NeuralNekworks_function/Convolution/1.py" />
+        <option value="$PROJECT_DIR$/NeuralNekworks_function/Convolution/tf.nn.conv2d.py" />
+        <option value="$PROJECT_DIR$/NeuralNekworks_function/Convolution/tf.nn.depthwise_conv2d.py" />
+        <option value="$PROJECT_DIR$/NeuralNekworks_function/Convolution/tf_nn_depthwise_conv2d.py" />
+        <option value="$PROJECT_DIR$/NeuralNekworks_function/Convolution/tf_nn_separable_conv2d.py" />
       </list>
     </option>
   </component>
@@ -321,10 +328,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="210" />
-    <option name="width" value="1687" />
-    <option name="height" value="1035" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="71" />
+    <option name="width" value="1774" />
+    <option name="height" value="1047" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -344,17 +351,29 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Default">
+      <pane id="ProjectPane">
+        <subPane>
           <expand>
             <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="TFAPI_translation" type="cbb8eebc:String" user="TFAPI_translation" />
+              <item name="TFAPI_translation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TFAPI_translation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="Root" type="cbb8eebc:String" user="Root" />
-              <item name="TFAPI_translation" type="cbb8eebc:String" user="TFAPI_translation" />
-              <item name=".idea" type="cbb8eebc:String" user=".idea" />
+              <item name="TFAPI_translation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TFAPI_translation" type="462c0819:PsiDirectoryNode" />
+              <item name="NeuralNekworks_function" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TFAPI_translation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TFAPI_translation" type="462c0819:PsiDirectoryNode" />
+              <item name="NeuralNekworks_function" type="462c0819:PsiDirectoryNode" />
+              <item name="Convolution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TFAPI_translation" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TFAPI_translation" type="462c0819:PsiDirectoryNode" />
+              <item name="NeuralNekworks_function" type="462c0819:PsiDirectoryNode" />
+              <item name="func_img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -376,23 +395,17 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Default">
           <expand>
             <path>
-              <item name="TFAPI_translation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TFAPI_translation" type="462c0819:PsiDirectoryNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TFAPI_translation" type="cbb8eebc:String" user="TFAPI_translation" />
             </path>
             <path>
-              <item name="TFAPI_translation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TFAPI_translation" type="462c0819:PsiDirectoryNode" />
-              <item name="NeuralNekworks_function" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TFAPI_translation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TFAPI_translation" type="462c0819:PsiDirectoryNode" />
-              <item name="NeuralNekworks_function" type="462c0819:PsiDirectoryNode" />
-              <item name="func_img" type="462c0819:PsiDirectoryNode" />
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="TFAPI_translation" type="cbb8eebc:String" user="TFAPI_translation" />
+              <item name=".idea" type="cbb8eebc:String" user=".idea" />
             </path>
           </expand>
           <select />
@@ -427,7 +440,25 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tf_minimum">
+  <component name="RunManager" selected="Python.tf_nn_separable_conv2d">
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NeuralNekworks_function/Convolution" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="TFAPI_translation" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="F:\Git\TFAPI_translation\NeuralNekworks_function\Convolution\tf_nn_conv2d.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -442,24 +473,6 @@
       <module name="" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="tf_equal" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/math_ops_basicoperation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="TFAPI_translation" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops_basicoperation/tf_equal.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -500,56 +513,56 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf_pack" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_nn_depthwise_conv2d" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/array_ops" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NeuralNekworks_function/Convolution" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/array_ops/tf_pack.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NeuralNekworks_function/Convolution/tf_nn_depthwise_conv2d.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf_transpose" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_nn_separable_conv2d" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/math_ops_linear algebra" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NeuralNekworks_function/Convolution" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/math_ops_linear algebra/tf_transpose.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NeuralNekworks_function/Convolution/tf_nn_separable_conv2d.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.tf_transpose" />
-      <item index="1" class="java.lang.String" itemvalue="Python.tf_pack" />
-      <item index="2" class="java.lang.String" itemvalue="Python.tf_equal" />
-      <item index="3" class="java.lang.String" itemvalue="Python.tf_matmul" />
-      <item index="4" class="java.lang.String" itemvalue="Python.tf_minimum" />
+      <item index="0" class="java.lang.String" itemvalue="Python.tf_matmul" />
+      <item index="1" class="java.lang.String" itemvalue="Python.tf_minimum" />
+      <item index="2" class="java.lang.String" itemvalue="Python.1" />
+      <item index="3" class="java.lang.String" itemvalue="Python.tf_nn_depthwise_conv2d" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tf_nn_separable_conv2d" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tf_minimum" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tf_matmul" />
-        <item index="2" class="java.lang.String" itemvalue="Python.tf_transpose" />
-        <item index="3" class="java.lang.String" itemvalue="Python.tf_equal" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tf_pack" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tf_nn_separable_conv2d" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tf_nn_depthwise_conv2d" />
+        <item index="2" class="java.lang.String" itemvalue="Python.1" />
+        <item index="3" class="java.lang.String" itemvalue="Python.tf_minimum" />
+        <item index="4" class="java.lang.String" itemvalue="Python.tf_matmul" />
       </list>
     </recent_temporary>
   </component>
@@ -570,26 +583,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="210" y="0" width="1687" height="1035" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12846482" sideWeight="0.4960894" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37206703" sideWeight="0.5038095" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9877095" sideWeight="0.4961905" order="1" side_tool="false" content_ui="tabs" x="23" y="356" width="1050" height="327" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3409611" sideWeight="0.4961905" order="1" side_tool="false" content_ui="tabs" x="23" y="356" width="1050" height="327" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1462815" sideWeight="0.4960894" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.12723215" sideWeight="0.5039106" order="10" side_tool="true" content_ui="tabs" x="25" y="368" width="1870" height="303" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24954128" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3990878" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" show_stripe_button="true" weight="0.12723215" sideWeight="0.5039106" order="10" side_tool="true" content_ui="tabs" x="25" y="368" width="1870" height="303" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -604,41 +618,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/NeuralNekworks_function/Classification/tf_nn_softmax.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="16" lean-forward="true" selection-start-line="0" selection-start-column="9" selection-end-line="0" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/NeuralNekworks_function/Classification/tf_nn_sigmoid_cross_entropy_with_logits.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="30" lean-forward="false" selection-start-line="11" selection-start-column="30" selection-end-line="11" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/math_ops_basicoperation/tf_div.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="668">
-          <caret line="92" column="52" lean-forward="true" selection-start-line="92" selection-start-column="52" selection-end-line="92" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/io_ops/Input pipeline/Beginning of an input pipeline/tf_train_match_filenames_once.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/framework_ops/tf_name_scope.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="17" column="24" lean-forward="true" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/gen_io_ops.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
@@ -662,13 +641,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Demo/file1.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -943,7 +915,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="4" column="39" lean-forward="true" selection-start-line="4" selection-start-column="39" selection-end-line="4" selection-end-column="39" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -952,19 +923,73 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/array_ops/tf_expand_dims.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="4" selection-end-column="73" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/math_ops_basicoperation/tf_minimum.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/array_ops/tf_expand_dims.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="3" lean-forward="false" selection-start-line="0" selection-start-column="3" selection-end-line="4" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/gen_nn_ops.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4786">
+          <caret line="407" column="0" lean-forward="true" selection-start-line="407" selection-start-column="0" selection-end-line="407" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuralNekworks_function/Convolution/tf_nn_conv2d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="39" column="49" lean-forward="false" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+          <folding>
+            <element signature="e#1548#1566#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuralNekworks_function/Convolution/tf_nn_depthwise_conv2d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="111">
+          <caret line="13" column="37" lean-forward="false" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
+          <folding>
+            <element signature="e#747#765#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/Program Files/Python 3.5/Lib/site-packages/tensorflow/python/ops/nn_impl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-608">
+          <caret line="398" column="0" lean-forward="false" selection-start-line="398" selection-start-column="0" selection-end-line="405" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuralNekworks_function/Convolution/tf_nn_separable_conv2d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="e#822#840#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
