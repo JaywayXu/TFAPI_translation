@@ -2,17 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db063f02-556f-4c0a-ab62-f8a0e1d7148e" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Normalization/tf_nn_l2_normalize.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Normalization/tf_nn_local_response_normalization.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Normalization/tf_nn_moment.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Pooling/tf_nn_avg_pool.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Pooling/tf_nn_max_pool.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Pooling/tf_nn_max_pool_with_argmax.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Losses/tf_nn_l2_loss.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contrib/tf_contrib_layer_fully_connected.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contrib/tf_contrib_layers_convolution2d.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeuralNekworks_function/Activefunction/tf_nn_dropout.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Activefunction/tf_nn_dropout.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeuralNekworks_function/Activefunction/tf_nn_relu.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Activefunction/tf_nn_relu.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeuralNekworks_function/Activefunction/tf_sigmoid.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Activefunction/tf_sigmoid.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/NeuralNekworks_function/Activefunction/tf_tanh.py" afterPath="$PROJECT_DIR$/NeuralNekworks_function/Activefunction/tf_tanh.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -150,6 +143,7 @@
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_square.coverage" NAME="tf_square Coverage Results" MODIFIED="1501588328907" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_sub.coverage" NAME="tf.sub Coverage Results" MODIFIED="1501484048857" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_trace.coverage" NAME="tf_trace Coverage Results" MODIFIED="1501660485886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_linear algebra" />
+    <SUITE FILE_PATH="coverage/TFAPI_translation$tf_nn_l2_loss.coverage" NAME="tf_nn_l2_loss Coverage Results" MODIFIED="1504773498951" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NeuralNekworks_function/Losses" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_pack.coverage" NAME="tf_pack Coverage Results" MODIFIED="1504006214901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/array_ops" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_cumprod.coverage" NAME="tf_cumprod Coverage Results" MODIFIED="1501751064518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/math_ops_advanced_function" />
     <SUITE FILE_PATH="coverage/TFAPI_translation$tf_nn_dropout.coverage" NAME="tf_nn_dropout Coverage Results" MODIFIED="1504663686441" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/NeuralNekworks_function/Activefunction" />
@@ -185,23 +179,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="tf_nn_moment.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/NeuralNekworks_function/Normalization/tf_nn_moment.py">
+      <file leaf-file-name="tf_nn_l2_loss.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/NeuralNekworks_function/Losses/tf_nn_l2_loss.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1288">
-              <caret line="56" column="29" lean-forward="false" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+            <state relative-caret-position="529">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
               <folding>
-                <element signature="e#236#254#0" expanded="true" />
+                <element signature="e#113#131#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tf_nn_local_response_normalization.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/NeuralNekworks_function/Normalization/tf_nn_local_response_normalization.py">
+      <file leaf-file-name="tf_contrib_layers_convolution2d.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/contrib/tf_contrib_layers_convolution2d.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="751">
+              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tf_contrib_layer_fully_connected.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/contrib/tf_contrib_layer_fully_connected.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="11" />
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -262,8 +266,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/tf_Session.py" />
-        <option value="$PROJECT_DIR$/Session/tf_Session.py" />
         <option value="$PROJECT_DIR$/Session/tf_Session_run.py" />
         <option value="$PROJECT_DIR$/array_ops/tf_placeholder.py" />
         <option value="$PROJECT_DIR$/Variable_ops/tf_Variable.py" />
@@ -313,6 +315,8 @@
         <option value="$PROJECT_DIR$/NeuralNekworks_function/Normalization/tf_nn_l2_normalize.py" />
         <option value="$PROJECT_DIR$/NeuralNekworks_function/Normalization/tf_nn_local_response_normalization.py" />
         <option value="$PROJECT_DIR$/NeuralNekworks_function/Normalization/tf_nn_moment.py" />
+        <option value="$PROJECT_DIR$/NeuralNekworks_function/Losses/tf_nn_l2_loss.py" />
+        <option value="$PROJECT_DIR$/contrib/tf_contrib_layers_convolution2d.py" />
       </list>
     </option>
   </component>
@@ -329,11 +333,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="27" />
-    <option name="y" value="248" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-391" />
+    <option name="y" value="243" />
     <option name="width" value="1774" />
-    <option name="height" value="991" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -395,13 +399,7 @@
             <path>
               <item name="TFAPI_translation" type="b2602c69:ProjectViewProjectNode" />
               <item name="TFAPI_translation" type="462c0819:PsiDirectoryNode" />
-              <item name="NeuralNekworks_function" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="TFAPI_translation" type="b2602c69:ProjectViewProjectNode" />
-              <item name="TFAPI_translation" type="462c0819:PsiDirectoryNode" />
-              <item name="NeuralNekworks_function" type="462c0819:PsiDirectoryNode" />
-              <item name="Normalization" type="462c0819:PsiDirectoryNode" />
+              <item name="contrib" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -411,11 +409,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Mofan_demo" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../TF-_for_MI" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
     <property name="SearchEverywhereHistoryKey" value="inv&#9;null&#9;null&#10;sign&#9;null&#9;null&#10;neg&#9;null&#9;null" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\Git\TFAPI_translation\contrib" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\Git\TFAPI_translation\NeuralNekworks_function\Classification" />
       <recent name="F:\Git\TFAPI_translation\NeuralNekworks_function\Activefunction" />
@@ -436,7 +437,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.tf_nn_moment">
+  <component name="RunManager" selected="Python.tf_nn_l2_loss">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -455,20 +456,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="tf_nn_avg_pool" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="tf_nn_l2_loss" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NeuralNekworks_function/Pooling" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/NeuralNekworks_function/Losses" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="TFAPI_translation" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NeuralNekworks_function/Pooling/tf_nn_avg_pool.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/NeuralNekworks_function/Losses/tf_nn_l2_loss.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -546,19 +547,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.tf_nn_avg_pool" />
-      <item index="1" class="java.lang.String" itemvalue="Python.tf_nn_max_pool_with_argmax" />
-      <item index="2" class="java.lang.String" itemvalue="Python.tf_nn_l2_normalize" />
-      <item index="3" class="java.lang.String" itemvalue="Python.tf_nn_local_response_normalization" />
-      <item index="4" class="java.lang.String" itemvalue="Python.tf_nn_moment" />
+      <item index="0" class="java.lang.String" itemvalue="Python.tf_nn_max_pool_with_argmax" />
+      <item index="1" class="java.lang.String" itemvalue="Python.tf_nn_l2_normalize" />
+      <item index="2" class="java.lang.String" itemvalue="Python.tf_nn_local_response_normalization" />
+      <item index="3" class="java.lang.String" itemvalue="Python.tf_nn_moment" />
+      <item index="4" class="java.lang.String" itemvalue="Python.tf_nn_l2_loss" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.tf_nn_moment" />
-        <item index="1" class="java.lang.String" itemvalue="Python.tf_nn_local_response_normalization" />
-        <item index="2" class="java.lang.String" itemvalue="Python.tf_nn_l2_normalize" />
-        <item index="3" class="java.lang.String" itemvalue="Python.tf_nn_max_pool_with_argmax" />
-        <item index="4" class="java.lang.String" itemvalue="Python.tf_nn_avg_pool" />
+        <item index="0" class="java.lang.String" itemvalue="Python.tf_nn_l2_loss" />
+        <item index="1" class="java.lang.String" itemvalue="Python.tf_nn_moment" />
+        <item index="2" class="java.lang.String" itemvalue="Python.tf_nn_local_response_normalization" />
+        <item index="3" class="java.lang.String" itemvalue="Python.tf_nn_l2_normalize" />
+        <item index="4" class="java.lang.String" itemvalue="Python.tf_nn_max_pool_with_argmax" />
       </list>
     </recent_temporary>
   </component>
@@ -579,16 +580,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-391" y="243" width="1774" height="1100" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29424307" sideWeight="0.4960894" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32205367" sideWeight="0.4960894" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38994414" sideWeight="0.5038095" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32937366" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8" sideWeight="0.4961905" order="1" side_tool="false" content_ui="tabs" x="23" y="356" width="1050" height="327" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33743018" sideWeight="0.4961905" order="1" side_tool="false" content_ui="tabs" x="23" y="356" width="1050" height="327" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24954128" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32849163" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -614,27 +615,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Train/Coordinator and QueueRunner/tf_train_Coordinator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="690">
-          <caret line="30" column="3" lean-forward="false" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/io_ops/Converting/tf_decode_csv.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/io_ops/Input pipeline/Batching at the end of an input pipeline/tf_train_shuffle_batch.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="63" column="39" lean-forward="true" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/io_ops/Input pipeline/Beginning of an input pipeline/tf_train_string_input_producer.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -943,6 +923,32 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="3" lean-forward="true" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NeuralNekworks_function/Losses/tf_nn_l2_loss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <element signature="e#113#131#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/tf_contrib_layers_convolution2d.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="751">
+          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/contrib/tf_contrib_layer_fully_connected.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
