@@ -8,7 +8,8 @@
 默认情况下，每个神经元是否放电是相互独立的。但是，如果noise_shape被修改了，
 那么他对于变量x就是一个广播形式，而且当且仅当 noise_shape[i] == shape(x)[i] ，
 x中的元素是相互独立的。比如，如果 shape(x) = [k, l, m, n], noise_shape = [k, 1, 1, n] ，
-那么每个批和通道都是相互独立的，但是每行和每列的数据都是关联的，即要不都为0，要不都还是原来的值。"""
+那么每个批和通道都是相互独立的，但是每行和每列的数据都是关联的，即要不都为0，要不都还是原来的值。
+一荣俱荣,一损俱损"""
 
 import tensorflow as tf
 # tf.nn.dropout(x, keep_prob, noise_shape = None, seed = None, name = None)
@@ -18,6 +19,12 @@ with tf.Session() as sess:
     print(sess.run(b))
     b = tf.nn.dropout(a, 0.5, noise_shape=[1, 1])  # 第0维相互独立，第1维不是相互独立的
     print(sess.run(b))
+    # 第一次
+    # [[-0.  4.  0.  0.]]
+    # [[-2.  4.  6.  8.]]
+    # 第二次
+    # [[-2.  0.  6.  8.]]
+    # [[-0.  0.  0.  0.]]
 """输入参数：
   ● x: 一个Tensor。
   ● keep_prob: 一个 Python 的 float 类型。表示元素是否放电的概率。
