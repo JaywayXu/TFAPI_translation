@@ -1,7 +1,7 @@
 """Tensorflow中有一些函数可以实现垂直翻转,水平翻转,随即翻转等操作可以防止模型对图像的翻转版本产生过拟合"""
 import tensorflow as tf
 
-image_filename = "./images/chapter-05-object-recognition-and-classification/working-with-images/test-input-image.jpg"
+image_filename = "../test_images/test-input-image.jpg"
 # 获得文件名列表
 filename_queue = tf.train.string_input_producer(tf.train.match_filenames_once(image_filename))
 # 生成文件名队列
