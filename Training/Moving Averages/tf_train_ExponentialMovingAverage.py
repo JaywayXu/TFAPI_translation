@@ -29,3 +29,11 @@ print(sess.run([v1, ema.average(v1)]))
 # [10.0, 4.5549998]
 # [10.0, 4.6094499]
 # [15.0, 4.7133551]
+"""注意,使用了这个函数后会生成一个新的影子变量"""
+
+a = tf.global_variables()
+for ele in a:
+    print(ele.name)
+    # Variable: 0
+    # Variable_1: 0
+    # Variable/ExponentialMovingAverage: 0(新增的变量)

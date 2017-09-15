@@ -1,5 +1,6 @@
 """def concat(values, axis, name="concat"):
 解释：这个函数的作用是沿着concat_dim维度，去重新串联value，组成一个新的tensor。
+tf.concat（axis, [list1, list2]）用于合并两个迭代器（比如列表）。axis表示合并的方向。0表示竖直合并，1表示水平
 使用例子："""
 
 import tensorflow as tf
