@@ -1,6 +1,7 @@
 import tensorflow as tf
 
 """convolution2d层与tf.nn.conv2d逻辑相同,但还包括权值初始化,偏置初始化,
+tf.contrib.layers.conv2d
 可训练的变量输出,偏置相加,以及添加激活函数的功能"""
 image_input = tf.constant([
     [
@@ -12,12 +13,11 @@ image_input = tf.constant([
 # shape(1,3,3,3)
 conv2d = tf.contrib.layers.convolution2d(
     image_input,
-    num_outputs=4,
-    kernel_size=(1,1),          # 这里表示滤波器的高度和宽度
+    num_outputs=4,  # 生成的滤波器的数量
+    kernel_size=(1, 1),  # 这里表示滤波器的高度和宽度
     activation_fn=tf.nn.relu,
-    stride=(1, 1),              # 对image_batch和imput_channels的跨度值
+    stride=(1, 1),  # 对image_batch和imput_channels的跨度值
     trainable=True)
-
 
 # It's required to initialize the variables used in convolution2d's setup.
 

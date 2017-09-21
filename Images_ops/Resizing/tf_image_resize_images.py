@@ -1,5 +1,8 @@
 """tensorflow里面用于改变图像大小的函数是tf.image.resize_images(image， （w， h）， method)：image表示需要改变此存的图像
-，第二个参数改变之后图像的大小，method用于表示改变图像过程用的差值方法。0：双线性差值。1：最近邻居法。2：双三次插值法。3：面积插值法。"""
+，第二个参数改变之后图像的大小，method用于表示改变图像过程用的差值方法。0：双线性差值。1：最近邻居法。2：双三次插值法。3：面积插值法。
+这里使用的tf.image.resize_images函数,这个尺寸调整方法会将所有图像变为相同的尺寸,有可能会有图像的扭曲发生,因为这个方法不考虑图像的长宽比
+"""
+
 import matplotlib.pyplot as plt
 import tensorflow as tf
 

@@ -47,6 +47,7 @@ capacity: An integer. The maximum number of elements in the queue.
 这个参数一定要比min_after_dequeue参数的值大,并且决定了我们可以进行预处理操作元素的最大值.
 推荐其值为:
 capacity=(min_after_dequeue+(num_threads+a small safety margin∗batchsize)
+
 min_after_dequeue: Minimum number elements in the queue after a
 dequeue(出列), used to ensure a level of mixing of elements.
 当一次出列操作完成后,队列中元素的最小数量,往往用于定义元素的混合级别.
