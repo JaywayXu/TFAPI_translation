@@ -1,4 +1,6 @@
-"""tf.train.exponential_decay(learning_rate, global_step, decay_steps, decay_rate, staircase=False, name=None)
+"""自适应学习率衰减
+
+tf.train.exponential_decay(learning_rate, global_step, decay_steps, decay_rate, staircase=False, name=None)
 退化学习率,衰减学习率,将指数衰减应用于学习速率。
 计算公式:decayed_learning_rate = learning_rate *
                         decay_rate ^ (global_step / decay_steps)
