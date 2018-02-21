@@ -1,5 +1,6 @@
 """tf.transpose(a, perm = None, name = 'transpose')
-解释：将a进行转置，并且根据perm参数重新排列输出维度。
+解释：将a进行转置，并且根据perm参数重新排列输出维度。这是对数据的维度的进行操作的形式。
+例如：图像处理时数据集中存储数据的形式为[channel,image_height,image_width],在tensorflow中使用CNN时我们需要将其转化为[image_height,image_width,channel]的形式，只需要使用tf.transpose(input_data,[1,2,0])
 输出数据tensor的第i维将根据perm[i]指定。比如，如果perm没有给定，那么默认是perm = [n-1, n-2, ..., 0]，
 其中rank(a) = n。默认情况下，对于二维输入数据，其实就是常规的矩阵转置操作。"""
 """
@@ -31,8 +32,8 @@ input_data = tf.constant([[[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]]])
 print('input_data shape: ', sess.run(tf.shape(input_data)))
 # [1, 4, 3]
 output_data = tf.transpose(input_data, perm=[1, 2, 0])
-# [4, 3, 1]
 print('output_data shape: ', sess.run(tf.shape(output_data)))
+# [4, 3, 1]
 print(sess.run(output_data))
 # [[[ 1]
 #   [ 2]
@@ -61,7 +62,6 @@ input_data = tf.constant([[[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, 11, 12]]])
 print('input_data shape: ', sess.run(tf.shape(input_data)))
 # [1, 4, 3]
 output_data = tf.transpose(input_data)
-# output_data shape:  [3 4 1]
 print('output_data shape: ', sess.run(tf.shape(output_data)))
-
+# output_data shape:  [3 4 1]
 sess.close()
